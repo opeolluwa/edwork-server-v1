@@ -3,10 +3,10 @@ const mysql = require('mysql2');
 
 //create database connection
 const database = mysql.createConnection({
-    host:"localhost",
-    user: "sillicone",
-    password:"",
-    database:"oldshelf_x"
+    host:"mysql.db.mdbgo.com",
+    user: "opeolluwa_drizzle",
+    password:"39F#0sts",
+    database:"opeolluwa_sandvalley"
 })
 
 
