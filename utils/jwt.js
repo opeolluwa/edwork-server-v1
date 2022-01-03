@@ -19,5 +19,3 @@ const jwt = {
 }
 //export token
 module.exports = jwt;
-
-console.log(jwt.sign({foo: "bar"}), jwt.verify("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28iOiJiYXIiLCJpYXQiOjE2NDExOTQ4MTcsImV4cCI6MTY0MTE5ODQxN30.cV9dK4fSzR6SbUksYY4iAWiYJfaJGQvF6Uycq5dqmNo"));
