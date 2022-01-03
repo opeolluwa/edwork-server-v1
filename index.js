@@ -39,7 +39,7 @@ app.use("/ssr", ssr)
 
 // create the connection test
 app.get("/", (req, res) => {
-    res.send("Ignition started, whatever happens dont shout")
+    res.send("Ignition started, whatever happens dont shout" + process.env. HOT_ROLLERS)
 })
 
 
