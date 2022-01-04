@@ -16,13 +16,13 @@ function register(req, res) {
             .then(([rows, fields]) => {
                 //add user if not exist
                 if (rows[0]) {
-                    return res.send({ message: _.upperCase(email) + _.capitalize(" already exists"), error: true })
+                    return res.send({ message: email + _.capitalize(" already exists"), error: true })
                 }
                 //inform user of existence if found
                 else {
                     database.promise().query("INSERT INTO user_information (user_id, firstname, lastname, email, password)  VALUES (?,?,?,?,?)", [uuidv4(), firstname, lastname, email, hash_password(password)])
                         .then(([rows, fields]) => {
-                            return res.send({ message: _.upperCase(email) + _.capitalize(" successfully added"), error: false })
+                            return res.send({ message: email + _.capitalize(" successfully added"), error: false })
                         })
                         .catch(error => {
                             return res.send({ message: _.capitalize("An error occured! please retry"), error: true })
