@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const cors = require('cors')
 const { register, login } = require('../controllers/auth')
-const { validate_auth_login, validate_auth_register } = require('../middleware')
+const { validate_auth_login, validate_auth_register } = require('../middleware/auth')
 
 
 
