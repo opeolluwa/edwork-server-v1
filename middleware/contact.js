@@ -1,20 +1,27 @@
-function validate_payload(req, res, next) {
-    //fetch pqyload
-    const { contact_email, contact_name, contact_phone } = req.body
+module.exports = {
+    //handle sending emails
+    validate_contact_us_mails(req, res, next) {
+        //get the payload
+        const { email, subject, name, message } = req.body
 
-    //contain errors
-    const errors = []
+        //if !email or invalid emai
+        if ((!email_validator.validate(email)) || !email) {
+            return res.status(400).send({ message: _.capitalize("please provide a valid e-mail") })
+        }
+        //if not name
+        if (!name) {
+            return res.status(400).send({ message: _.capitalize("please provide your name") })
+        }
+        //if not subject or little detail provided
+        if ((!subject) || (subject.length < 5)) {
+            return res.status(400).send({ message: _.capitalize("please provide more details in subject feed") })
+        }
+        //if not message 
+        if ((!message) || (message.length < 15)) {
+            return res.status(400).send({ message: _.capitalize("please provide more details in message feed") })
+        }
+        //continue to next middleware ()
+        next()
 
-    //validate data
-    if (!contact_phone) errors.push("please provide a valid phone number")
-    if (!contact_name) errors.push("name cannot be empty")
-    //TODO: use a package to validate email
-    if (!contact_email) errors.push("please provide a valid email address")
-    next();
-
-    //send back error to handler
-    return res.send({ errors })
+    },
 }
-
-
-module.exports = validate_payload
