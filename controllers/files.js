@@ -2,7 +2,7 @@ const database = require("../config/config.database")
 const uuid = require("./../utils/uuid")
 //TODO: Add jwt verification for addmin to add files to dayabase and password reconfirm
 //REFACTOR : check if file already exist
-const jwt = require("./../utils/jwt")
+const _ = require('lodash');
 
 
 //TODO :: add path for admin
@@ -24,19 +24,9 @@ function add(req, res, next) {
 function search(req, res, next) {
     //destructure payload
     const { query, filters } = req.body;
-    // res.send({ query, shh: process.env.JWT_KEY })
 
 
-    //search
-    /*   database
-          .promise()
-          .query("SELECT * FROM user_information")
-          .then((fields, rows) => {
-              return res.send({ rows })
-          }) */
-
-
-
+    console.log(query)
     database
         .promise()
         .query("SELECT * FROM files WHERE LOWER(course_code) LIKE ?  OR LOWER(course_title) LIKE ?", [`%${query.trim()}%`, `%${query.trim()}%`])
@@ -44,16 +34,16 @@ function search(req, res, next) {
 
             // match found
             if (rows.length) {
-                return res.send({ rows, hh: "hahahah" })
+                return res.send({ message: rows })
             }
             // no match found
             else {
-                return res.send({ error: "no match found for " + query })
+                return res.send({ error: `no match found for "${query}"` })
             }
         })
         //if error 
         .catch((error) => {
-            res.json({ error: "no match found for " + query })
+            return res.send({ error: _.capitalize(`no match found for "${_.upperCase(query)}"`) })
         })
 }
 
