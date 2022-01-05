@@ -6,19 +6,17 @@ const cors = require('cors')
 
 //routes
 const analytics = require('./routes/analytics') //analytics
-const contact_us = require('./routes/contact-us') //contact form
-const contacts = require('./routes/contacts') // managing contacts; details and mail
+const contact = require('./routes/contact') //contact form
 const auth = require('./routes/auth') // athentication
 const ssr = require('./routes/ssr') // serverside rendering
-const files = require('./routes/search') //search database
+const files = require('./routes/files') //search database
 const profile = require("./routes/profile") //user profile
 
 //load in routes and cors
 app.use(cors())
 app.use(express.json())
 app.use("/analytics", analytics)
-app.use("/contact-us", contact_us)
-app.use("/contacts", contacts)
+app.use("/contact", contact)
 app.use('/files', files)
 app.use("/ssr", ssr)
 
@@ -39,7 +37,7 @@ app.use("/ssr", ssr)
 
 // create the connection test
 app.get("/", (req, res) => {
-    res.send("Ignition started, whatever happens dont shout" + process.env. HOT_ROLLERS)
+    res.send("Ignition started, whatever happens don't shout" + process.env.HOT_ROLLERS)
 })
 
 
