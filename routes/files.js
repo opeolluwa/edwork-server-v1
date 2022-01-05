@@ -5,6 +5,6 @@ const { search, add } = require('../controllers/files')
 const { validate_search_query, validate_search_add_files } = require('../middleware')
 
 router.use(cors())
-router.post('/search', validate_search_query, search)
+router.post('/search',/*  validate_search_query, */ search)
 router.post('/add', validate_search_add_files, add)
 module.exports = router
