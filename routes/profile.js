@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router()
 const cors = require('cors');
 const { profile_information, update_profile_information } = require('../controllers/profile');
-const { decode_jwt, validate_auth_token } = require('../middleware');
+const { decode_jwt, validate_auth_token } = require('../middleware/profile');
 
 router.use(cors())
 /*

@@ -20,7 +20,9 @@ function register(req, res) {
                 }
                 //inform user of existence if found
                 else {
-                    database.promise().query("INSERT INTO user_information (user_id, firstname, lastname, email, password)  VALUES (?,?,?,?,?)", [uuidv4(), firstname, lastname, email, hash_password(password)])
+                    database
+                        .promise()
+                        .query("INSERT INTO user_information (user_id, firstname, lastname, email, password)  VALUES (?,?,?,?,?)", [uuidv4(), firstname, lastname, email, hash_password(password)])
                         .then(([rows, fields]) => {
                             return res.send({ message: email + _.capitalize(" successfully added"), error: false })
                         })
@@ -51,7 +53,8 @@ function login(req, res) {
     const { email, password } = req.body
 
     //check if user exists
-    database.promise()
+    database
+        .promise()
         .query("SELECT * FROM user_information WHERE LOWER(email) =?", [email])
         .then(([rows, fields]) => {
 
@@ -66,6 +69,7 @@ function login(req, res) {
                     const jwt_token = jwt.sign({ user_id, email, firstname })
                     return res.send({ user_id, email, firstname, jwt_token })
                 }
+                
                 //if data does not match, send error 
                 if (!compare_hash(password, hash)) {
                     return res.send({ error: _.capitalize("Invalid email or password") })

@@ -24,13 +24,36 @@ function add(req, res, next) {
 function search(req, res, next) {
     //destructure payload
     const { query, filters } = req.body;
+    // res.send({ query, shh: process.env.JWT_KEY })
+
+
+    //search
+    /*   database
+          .promise()
+          .query("SELECT * FROM user_information")
+          .then((fields, rows) => {
+              return res.send({ rows })
+          }) */
+
+
 
     database
         .promise()
         .query("SELECT * FROM files WHERE LOWER(course_code) LIKE ?  OR LOWER(course_title) LIKE ?", [`%${query.trim()}%`, `%${query.trim()}%`])
-        .then((err, rows) => {
-            if (err) return res.json({ error: err.message })
-            else return res.json({ match: rows })
+        .then(([rows, fields]) => {
+
+            // match found
+            if (rows.length) {
+                return res.send({ rows, hh: "hahahah" })
+            }
+            // no match found
+            else {
+                return res.send({ error: "no match found for " + query })
+            }
+        })
+        //if error 
+        .catch((error) => {
+            res.json({ error: "no match found for " + query })
         })
 }
 
