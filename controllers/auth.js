@@ -24,7 +24,7 @@ function register(req, res) {
                         .promise()
                         .query("INSERT INTO user_information (user_id, firstname, lastname, email, password)  VALUES (?,?,?,?,?)", [uuidv4(), firstname, lastname, email, hash_password(password)])
                         .then(([rows, fields]) => {
-                            return res.send({ message:  _.toUpper(email) + _.capitalize("has been successfully added"), error: false })
+                            return res.send({ message:  _.toUpper(email) + _.capitalize(" has been successfully added"), error: false })
                         })
                         .catch(error => {
                             return res.send({ message: _.capitalize("An error occured! please retry"), error: true })
