@@ -12,6 +12,7 @@ const ssr = require('./routes/ssr') // serverside rendering
 const files = require('./routes/files') //search database
 const profile = require("./routes/profile") //user profile
 
+
 //load in routes and cors
 app.use(cors())
 app.use(express.json())
@@ -19,6 +20,7 @@ app.use("/analytics", analytics)
 app.use("/contact", contact)
 app.use('/files', files)
 app.use("/ssr", ssr)
+pp.use("/ssr", ssr)
 
 /*
 * endpoints  are
