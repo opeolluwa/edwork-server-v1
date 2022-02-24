@@ -1,8 +1,9 @@
 const express = require("express")
 const router = express.Router()
 const cors = require('cors')
-const question = require("../controllers/database");
+const { quiz } = require("../controllers/question");
 
-router.get("/", question);
+router.post("/", quiz);
+router.use(cors())
 
 module.exports = router
