@@ -1,0 +1,817 @@
+[{
+    "question": "The micronucleus of paramecium is primarily involved in___",
+    "choices": ["heredity and reproduction", "growth", "metabolism", "feeding"],
+    "correctAnswer": 2
+}, {
+    "question": "___carry impulse from the main nervous system towards a gland.",
+    "choices": ["motor nerve", "effectors", "response", "muscle"],
+    "correctAnswer": 0
+}, {
+    "question": "The interaction of different kinds of organisms that occur together at a particular place is called___",
+    "choices": ["ecosystem", "community", "biome", "ecology"],
+    "correctAnswer": 3
+}, {
+    "question": "The presence of two distinct types of nuclei is called___",
+    "choices": ["nuclear metamorphosis", "nuclear dimorphism", "nuclear polymorphism", "nuclear reaction"],
+    "correctAnswer": 1
+}, {
+    "question": "____is the site of information processing.",
+    "choices": ["central nervous system", "peripheral nervous system", "cerebral hemisphere", "dicephalon"],
+    "correctAnswer": 0
+}, {
+    "question": "The set of organisms together with the non-living factor with which it interacts is___",
+    "choices": ["ecology", "community", "biome", "ecosystem"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of the following organisms does not exist as a single living cell?",
+    "choices": ["chlamydomonas", "Volvox", "endorina", "amoeba."],
+    "correctAnswer": 1
+}, {
+    "question": "Muscles or glands which on receiving impulse from the brain or spinal cord contract or secrete substances",
+    "choices": ["effectors", "response", "receptors", "nerve"],
+    "correctAnswer": 0
+}, {
+    "question": "Spirogyra, Euglena and Chlamydomonas share many characteristics except ___",
+    "choices": ["nutrition", "reproduction", "mobility", "irritability"],
+    "correctAnswer": 2
+}, {
+    "question": "A wave of electrical disturbance that travels across the nerve cell and its fibres___",
+    "choices": ["sensory", "nerve", "motor", "impulse"],
+    "correctAnswer": 3
+}, {
+    "question": "Inbreeding endangers a small population than a large population",
+    "choices": ["true", "false", "undecided", "a and b"],
+    "correctAnswer": 0
+}, {
+    "question": "Which of the following organisms exist as a filament?",
+    "choices": ["euglena", "volvox", "eudorina", "spirogyra"],
+    "correctAnswer": 3
+}, {
+    "question": "An agent that results in the change of the activities of the organism is___",
+    "choices": ["stimulus", "impulse", "response", "nerve"],
+    "correctAnswer": 0
+}, {
+    "question": "The portion of the cell cycle in which the condensed chromosomes are not visible___",
+    "choices": ["chiasmata", "metaphase", "interphase", "prophase"],
+    "correctAnswer": 2
+}, {
+    "question": "Anaerobic respiration in yeast produces___",
+    "choices": ["carbon dioxide and ethanol", "carbon dioxide and water", "carbon dioxide and glucose", "ethanol and water"],
+    "correctAnswer": 0
+}, {
+    "question": "Change in the activity of the organism caused due to stimulus ___",
+    "choices": ["gland", "neurons", "motor", "response"],
+    "correctAnswer": 3
+}, {
+    "question": "Mammals that lay eggs are called___",
+    "choices": ["marsupial", "amphibians", "placental", "monotremes."],
+    "correctAnswer": 3
+}, {
+    "question": "The following animals have four chamber in their heart except ___",
+    "choices": ["lizard", "man", "goat", "dog"],
+    "correctAnswer": 0
+}, {
+    "question": "The following living organisms are eukaryotic except ___.",
+    "choices": ["spirogyra", "amoeba", "bacteria", "volvox"],
+    "correctAnswer": 2
+}, {
+    "question": "Animals which have true body cavity are referred to as ___.",
+    "choices": ["coelomate", "acoelomate", "choelomate", "pseudocoelomate."],
+    "correctAnswer": 0
+}, {
+    "question": "The following are cold blooded animals except ___",
+    "choices": ["lizard", "toad", "duck", "snake"],
+    "correctAnswer": 2
+}, {
+    "question": "Annelids are commonly called ___",
+    "choices": ["roundworms", "ringworms", "flatworms", "wrinkle worms"],
+    "correctAnswer": 1
+}, {
+    "question": "The end product of glycolysis is ___",
+    "choices": ["citric acid", "pyruvic acid", "malic acid", "acetic acid"],
+    "correctAnswer": 1
+}, {
+    "question": "Anaerobic respiration in yeast produces___",
+    "choices": ["carbondioxide and ethanol", "carbondioxide and water", "carbondioxide and glucose", "ethanol and water"],
+    "correctAnswer": 0
+}, {
+    "question": "Stomata pores open when there is___.",
+    "choices": ["an increase in the sugar content of guards cells", "a decrease in osmotic concentration of guard cells", "a decrease in the sugar content of mesophlyll cells", "an increase in the sugar content of mesophyll cells"],
+    "correctAnswer": 0
+}, {
+    "question": "A ___ sphincter controls the rate of flow of chime from the stomach into the small intestine",
+    "choices": ["cardiac", "pyloric", "pylocardiac", "cardiac"],
+    "correctAnswer": 1
+}, {
+    "question": "The parotid gland is found in the __",
+    "choices": ["small intestine", "rectum", "mouth", "colon"],
+    "correctAnswer": 2
+}, {
+    "question": "Bile is involved in the digestion of ___.",
+    "choices": ["protein", "fat", "glucose", "carbohydrate"],
+    "correctAnswer": 1
+}, {
+    "question": "Major digestion of food takes place within the ___",
+    "choices": ["liver", "small intestine", "colon", "none of the above"],
+    "correctAnswer": 1
+}, {
+    "question": "___ is the organ responsible for the production of insulin",
+    "choices": ["gastric gland", "pancreas", "duodenum", "liver"],
+    "correctAnswer": 1
+}, {
+    "question": "Hydrochloric acid is found in ___",
+    "choices": ["sputum", "rectum", "colon", "none of the above"],
+    "correctAnswer": 3
+}, {
+    "question": "___ is the semi-liquid found in the stomach",
+    "choices": ["chime", "cylli", "chyme", "chile"],
+    "correctAnswer": 2
+}, {
+    "question": "The submaxillary gland belong to a group of glands found in the ___",
+    "choices": ["stomach", "small intestine", "mouth", "all of the above"],
+    "correctAnswer": 2
+}, {
+    "question": "Deamination is a process that is carried out in the ___",
+    "choices": ["liver", "colon", "ileum", "pancreas"],
+    "correctAnswer": 0
+}, {
+    "question": "If a cell is placed in a solution of higher concentration, the solution is said to be ___",
+    "choices": ["hypotonic", "isotonic", "maltonic", "hypertonic"],
+    "correctAnswer": 3
+}, {
+    "question": "The scientist who first made an attempt to classify living things is called___",
+    "choices": ["Carl Linneaus", "Charles Darwin", "Aristotle", "Theodor"],
+    "correctAnswer": 2
+}, {
+    "question": "The system of giving a two-word name to an organism is called___",
+    "choices": ["polynomial nomenclature", "dinomial nomenclature", "binomial nomenclature", "biennial nomenclature"],
+    "correctAnswer": 2
+}, {
+    "question": "Scientific names are written in what language?",
+    "choices": ["German", "Latin", "Greek", "Grammar."],
+    "correctAnswer": 1
+}, {
+    "question": "Which of these types of skeleton is most appropriate to the cockroach?",
+    "choices": ["hydrostatic skeleton", "exoskeleton", "endoskeleton", "cartilaginous skeleton"],
+    "correctAnswer": 1
+}, {
+    "question": "Proteins are broken down to provide ___.",
+    "choices": ["oxygen", "carbohydrate", "energy", "amino acids"],
+    "correctAnswer": 3
+}, {
+    "question": "The function of the lenticels is ___",
+    "choices": ["to receive excess water in the plant", "to absorb water from atmosphere", "for gaseous exchange", "to absorb light"],
+    "correctAnswer": 2
+}, {
+    "question": "One of the functions of xylem is ___",
+    "choices": ["strengthening the stem", "manufacturing food", "conducting manufactured food", "none of the above."],
+    "correctAnswer": 0
+}, {
+    "question": "People suffering from myopia ___",
+    "choices": ["can see near objects clearly", "can see far away", "cannot see any objects clearly", "are color-blind"],
+    "correctAnswer": 0
+}, {
+    "question": "The cilia in paramecium are used for ___",
+    "choices": ["respiration", "locomotion", "protection", "excretion"],
+    "correctAnswer": 1
+}, {
+    "question": "The study of the organisms and the environment of an abandoned farmland is the ecology of ___.",
+    "choices": ["community", "a population", "a species", "an ecosystem"],
+    "correctAnswer": 3
+}, {
+    "question": "At fertilization ___",
+    "choices": ["One chromosomes from the male joins another from the female", "One gene from the male combines with the gene from another female", "The male nucleus fuses with the female nucleus.", "One set of chromosomes combines with another the female set from the female"],
+    "correctAnswer": 2
+}, {
+    "question": "The neck region of the tapeworm (Tapeworm spp) is responsible for the",
+    "choices": ["the production of eggs", "the storage of eggs", "the formation new segments", "the development of the suckers"],
+    "correctAnswer": 2
+}, {
+    "question": "Which of the following is characteristic is of the animal cell?",
+    "choices": ["presence of chloroplasts", "possession of cellulose cell wall", "absence of large vacuoles", "presence of large vacuoles"],
+    "correctAnswer": 2
+}, {
+    "question": "In the life history of Schistosoma (Bilharzia), one of the following is the intermediate host",
+    "choices": ["man", "snail", "mosquito larva", "fish"],
+    "correctAnswer": 1
+}, {
+    "question": "The hormones which tones up the muscles of a person in the time danger is from the ___.",
+    "choices": ["thyroid gland", "pancreas", "adrenal gland", "spleen"],
+    "correctAnswer": 2
+}, {
+    "question": "____________ is an end product of digestion of fat. ",
+    "choices": ["Glucose", "Fatty acid", "Amino acid ", "Fructose"],
+    "correctAnswer": 1
+}, {
+    "question": "Asexual reproduction in Hydra sp. is commonly by ____ ",
+    "choices": ["Binary fission", "Fragmentation", "Budding", "Separation"],
+    "correctAnswer": 2
+}, {
+    "question": "Benedict\u2019s solution is used to test for ___ ",
+    "choices": ["Carbohydrate", "Lipid", "Protein", "Vitamins"],
+    "correctAnswer": 2
+}, {
+    "question": "Pepsin is an enzyme that digests ___ ",
+    "choices": ["Starch", "Sugar", "Lipid", "Protein"],
+    "correctAnswer": 3
+}, {
+    "question": "The breakdown of large organic molecules into smaller simpler soluble molecules is called \u2013\u2013 ",
+    "choices": ["Excretion", "Digestion", "Absorption", "Reproduction"],
+    "correctAnswer": 1
+}, {
+    "question": "The enzyme that curdles milk is_____________ ",
+    "choices": ["Pepsin", "Ptyalin", "Renin", "Amylase"],
+    "correctAnswer": 2
+}, {
+    "question": "Which is the enzyme that begins digestion of starch in the mouth? ",
+    "choices": ["Ptyalin", "Maltase", "Amylase", "Sucrase"],
+    "correctAnswer": 0
+}, {
+    "question": "A group of interacting populations in a particular habitat can be described as ___",
+    "choices": ["biome", "biosphere", "community", "population ecosystem"],
+    "correctAnswer": 2
+}, {
+    "question": "A habitat can be defined as ___",
+    "choices": ["a group of animals and plants living within a common boundary", "a place in which plants and animals live", "a community living together in the same place", "different areas, with a common animal and plant population"],
+    "correctAnswer": 1
+}, {
+    "question": "A symbiotic relationship in which one organism is completely dependent on another organism is called ____ ",
+    "choices": ["Parasitism", "Commensalisms", "Mutualism", "Saprophytism"],
+    "correctAnswer": 0
+}, {
+    "question": "An association between two organisms where both members benefit is known as ___ ",
+    "choices": ["symbiosis", "commensalism", "ammensalism", "mutualism"],
+    "correctAnswer": 3
+}, {
+    "question": "An instrument used in measuring the speed of wind is ",
+    "choices": ["a barometer", "a wind gauge", "a wind vane", "an anemometer"],
+    "correctAnswer": 3
+}, {
+    "question": "At times hyenas feed on remains of animals killed by other animals. At other times, hyenas themselves kill animals for food. Therefore hyenas may best be described as \u2013\u2013 ",
+    "choices": ["scavengers and herbivores", "scavengers and parasites", "scavengers and predators ", "herbivores and predators"],
+    "correctAnswer": 2
+}, {
+    "question": "Autecology is defined as the study of interrelationship of ",
+    "choices": ["many species of organisms and their environment", "same species of organisms and their environment", "organisms in the atmosphere.", "organisms under the earth\u2019s surface"],
+    "correctAnswer": 1
+}, {
+    "question": "Autotrophs are also described as \u2013\u2013 ",
+    "choices": ["Consumers", "Decomposers", "Carnivores", "Producers"],
+    "correctAnswer": 3
+}, {
+    "question": "If three 30cm lengths of glass tubing are tightly packed with clay, sand and loamy soils respectively and then stood in a beaker of water for one week the level of water will be ",
+    "choices": ["Lowest in the tube with clay", "The same in all the tubes", "Lowest in the tube with loamy soil", "Lowest in the tube with sandy soil"],
+    "correctAnswer": 3
+}, {
+    "question": "In a community bacteria and fungi are referred to as \u2013\u2013 ",
+    "choices": ["producers", "consumers", "scavengers", "decomposers"],
+    "correctAnswer": 3
+}, {
+    "question": "Puddles, Ponds, Rivers, Seas and Oceans are grouped together as \u2013\u2013 ",
+    "choices": ["Ecosystem", "Biosphere", "Aquatic habitat", "Terrestrial habitat"],
+    "correctAnswer": 2
+}, {
+    "question": "The feeding pattern in an ecosystem is called\u2026\u2026\u2026\u2026.. ",
+    "choices": ["Pyramid of energy", "Food web", "Food chain", "Pyramid of member"],
+    "correctAnswer": 1
+}, {
+    "question": "The orderly changes that occur slowly and naturally in plant and animal communities in a given area over a period of time until a stable community is established is called \u2013\u2013 ",
+    "choices": ["Transformational change", "ecological succession", "survival of the fittest", "weather change"],
+    "correctAnswer": 1
+}, {
+    "question": "The sign + is used to indicate an association where an organism gains, while 0 is used where an organism is unaffected. An association indicated as +0 is known as \u2013\u2013 ",
+    "choices": ["predation", "commensalism", "parasitism", "competition"],
+    "correctAnswer": 1
+}, {
+    "question": "The sum total of all the roles an organism plays in a habitat is referred to as ",
+    "choices": ["ecology", "ecosystem", "habit.", "niche"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of the following factors does not control population growth? ",
+    "choices": ["Food shortage", "Emigration", "Predation", "Abundance of food"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of the following statements best describe an ecosystem? ",
+    "choices": ["A place where living organisms can live successfully", "The interactions between living organism in a habitat and the non-living part of the environment", "A biological association between a plant and an animal", "A system of grouping organisms in a habitat"],
+    "correctAnswer": 1
+}, {
+    "question": "Which of these represents a correct food chain in nature? ",
+    "choices": ["Crustacea \u2192 diatom \u2192fish \u2192 man", "Diatom \u2192 crustacea \u2192 fish \u2192 man", "Fish \u2192 crustacea \u2192 man \u2192 diatom", "Diatom \u2192 fish \u2192 crustacea \u2192 man"],
+    "correctAnswer": 1
+}, {
+    "question": "___________ is involved in the mechanism of expelling water from the protozoans during the process of____________ ",
+    "choices": ["Contractile vacuole, Osmoregulation", "Contractile vacuole, Phagocytosis", "Food vacuole, Ultrafilteration", "Food vacuole, Pinocytosis"],
+    "correctAnswer": 0
+}, {
+    "question": "______________ is used for photosynthesis in Euglena sp. ",
+    "choices": ["Reservoir", "Nucleus", "Chloroplast", "Paramylon granule"],
+    "correctAnswer": 2
+}, {
+    "question": "A heart with four chambers is found in______________ ",
+    "choices": ["Fishes", "Insects", "Snails", "Rats"],
+    "correctAnswer": 3
+}, {
+    "question": "Animal cell does not have a ____________ ",
+    "choices": ["Membrane", "Nucleolus", "Food Vacuole", "Cell wall"],
+    "correctAnswer": 3
+}, {
+    "question": "Beriberi is caused by deficiency of vitamin_____________ ",
+    "choices": ["A", " D", "K", " B"],
+    "correctAnswer": 3
+}, {
+    "question": "Compound eyes are found in which of the animals below",
+    "choices": ["Rat", "Cow", "Snail", "Ant"],
+    "correctAnswer": 3
+}, {
+    "question": "Dental formula of man consist of ",
+    "choices": ["i 2\/2, c2\/2, pm2\/2, m3\/3", "i1\/1, c2\/2, pm2\/2, m3\/3", "i2\/2, c1\/1, pm3\/2, m2\/2", " i2\/2, c1\/1, pm2\/2, m3\/3"],
+    "correctAnswer": 3
+}, {
+    "question": "During digestion of food, passage of chyme through the duodenum enables it to become a watery liquid called__________ ",
+    "choices": ["Digested food", "Chymatic product", "Chyle", "Soluble food"],
+    "correctAnswer": 2
+}, {
+    "question": "Emulsification of fat and oils is caused by______________ ",
+    "choices": ["Lipase", "Ptyalin", "Trypsin", "Bile"],
+    "correctAnswer": 3
+}, {
+    "question": "Every mammal has ",
+    "choices": ["One Kidney", "One pair of Kidneys", "One pair of Kidneys", "Four Kidneys"],
+    "correctAnswer": 2
+}, {
+    "question": "Faeces is removed from the body in a process called ",
+    "choices": ["Digestion", "Egestion", "Elimination", "Excretion"],
+    "correctAnswer": 1
+}, {
+    "question": "Glomerulus is found in the______________ ",
+    "choices": ["Ovary", "Testes", "Brain", "Kidney"],
+    "correctAnswer": 3
+}, {
+    "question": "In the respiratory system of man, diffusion of gases takes place in ",
+    "choices": ["Trachea", "Bronchi", "Alveoli", "Bronchioles"],
+    "correctAnswer": 2
+}, {
+    "question": "Incisors are used for ",
+    "choices": ["Tearing food", "Cutting food", "Grinding food", "Shearing food"],
+    "correctAnswer": 1
+}, {
+    "question": "Nematocysts are produced by special cells found in ",
+    "choices": ["Nematodes", "Annelids", "Platyhelminthes", "Cnidarians (Coelenterates)"],
+    "correctAnswer": 3
+}, {
+    "question": "One of the following is not a function of the skin ",
+    "choices": ["Excretion", "Protection", "Homeostasis", "Reproduction"],
+    "correctAnswer": 3
+}, {
+    "question": "Open circulatory system is found in _____________ ",
+    "choices": ["Lizard", "Toad", "Fish", "Insect"],
+    "correctAnswer": 3
+}, {
+    "question": "Ovary is to the female reproductive system as________ is to the male reproductive system ",
+    "choices": ["Penis", "Urethra", "Testis", "Cowper\u2019s gland"],
+    "correctAnswer": 2
+}, {
+    "question": "Possession of pinna is a characteristic feature of ",
+    "choices": ["Mammals", "Reptiles", "Fishes", "Amphibians"],
+    "correctAnswer": 0
+}, {
+    "question": "Tadpoles respire with ",
+    "choices": ["Lungs", "Nostril", "Gills", "Spiracles"],
+    "correctAnswer": 2
+}, {
+    "question": "The excretory organ in the earthworm is\u2026\u2026\u2026\u2026.. ",
+    "choices": ["Malphigian tubule", "Stoma", "Nephriduim", "Flame cells"],
+    "correctAnswer": 2
+}, {
+    "question": "The nerves that connect the eyes to the brain are called \u2013\u2013 ",
+    "choices": ["Cranial nerves", "Optical nerves", "Sensory nerves", "Optic nerves"],
+    "correctAnswer": 3
+}, {
+    "question": "The parasympathetic nervous system is involved in ",
+    "choices": ["Dilation of pupil of the eye", "Control the activities of smooth muscles", "Dilatation of the skin", "Controls thinking in mammals"],
+    "correctAnswer": 1
+}, {
+    "question": "The part of the alimentary system of a bird where grinding of food occurs is ",
+    "choices": ["Crop", "Stomach", "Cloaca", " Gizzard"],
+    "correctAnswer": 3
+}, {
+    "question": "The part of the ear that contains receptors that convert the fluid motion into action potential is called \u2013\u2013 ",
+    "choices": ["Auditory nerve", "Ossicles", "Semicircular canals", "Cochlea"],
+    "correctAnswer": 3
+}, {
+    "question": "The thoracic region of the vertebral column is made up of __________ vertebrae. ",
+    "choices": ["5", "7", "4", "12"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of the animal below is poikilothemic? ",
+    "choices": ["Toad", "Chicken", "Bat", "Lion"],
+    "correctAnswer": 0
+}, {
+    "question": "Which of the structures below is found in reptiles and birds ",
+    "choices": ["Scales", "Legs", "Beaks", "Claws"],
+    "correctAnswer": 0
+}, {
+    "question": "Which of these animals is photosynthetic? ",
+    "choices": ["Paramecium sp.", "Amoeba sp.", "Euglena sp.", "Hydra sp."],
+    "correctAnswer": 2
+}, {
+    "question": "Which of these organs regulate the amount of sugar in the blood? ",
+    "choices": ["Liver", "Kidney", "Spleen", "Pancreas"],
+    "correctAnswer": 3
+}, {
+    "question": "The basis for growth and asexual reproduction is ",
+    "choices": ["meiosis", "cytokinesis", "mitosis", "Cytogenesis"],
+    "correctAnswer": 2
+}, {
+    "question": "The process which ensures that the chromosome number for each species of organism remain constant from generation to generation is called ",
+    "choices": ["fission", "fusion", "meiosis", "mitosis"],
+    "correctAnswer": 2
+}, {
+    "question": "Which of the following is a major factor in variation among organisms? ",
+    "choices": ["Inbreeding", "Backcrossing", "Test crossing", "Sexual reproduction"],
+    "correctAnswer": 3
+}, {
+    "question": "____________ is an example of an invertebrate ",
+    "choices": ["Millipede", "Fish", "Toad", "Snake"],
+    "correctAnswer": 0
+}, {
+    "question": "____________ is the odd one in the list below ",
+    "choices": ["Mosquito", "Bee", "Moth", "Tick"],
+    "correctAnswer": 3
+}, {
+    "question": "_____________ are flatworms ",
+    "choices": ["Platyhelminthes", "Annelida", "Nematoda", "Diplopoda"],
+    "correctAnswer": 0
+}, {
+    "question": "_____________ is an example of a unicellular organism ",
+    "choices": ["Amoeba sp.", "Hydra sp.", "Ascaris", "Taenia sp."],
+    "correctAnswer": 0
+}, {
+    "question": "_____________ level is the highest level of organization in animals. ",
+    "choices": ["System", "Tissue", "Organ", "Cellular"],
+    "correctAnswer": 0
+}, {
+    "question": "Crocodiles are _____________ ",
+    "choices": ["Fishes", "Amphibians", "Mammals", "None of the above"],
+    "correctAnswer": 3
+}, {
+    "question": "The mutation theory of organic evolution was propounded by ",
+    "choices": ["Gregor Mendel", "Hugo de Vrics", "Jean Lamarck", "Charles Darwin"],
+    "correctAnswer": 3
+}, {
+    "question": "The theory of natural selection was developed by ",
+    "choices": ["Lamarck and Darwin", "Darwin and Wallace", "Wallace and Mendel", "Mendel and Lamarck"],
+    "correctAnswer": 1
+}, {
+    "question": "Which is the odd animal in the list below? ",
+    "choices": ["Lizards", "Snakes", "Turtles", "Toad"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of the following sources is not an evidence of evolution? ",
+    "choices": [" Fossil records", "Comparative anatomy", "Comparative embryology", "Human behavior"],
+    "correctAnswer": 3
+}, {
+    "question": "_______________ is an endoparasite ",
+    "choices": ["Earthworm", "Tapeworm", "Mosquito", "Housefly"],
+    "correctAnswer": 1
+}, {
+    "question": "The causative agent of bird flu is a ",
+    "choices": ["Virus", "Bacteria", "Fungus", "Protozoan"],
+    "correctAnswer": 0
+}, {
+    "question": "In lower plants like mosses, the structure which performs the functions of roots of higher plants is called ",
+    "choices": ["root hairs", "rootlets", "hyphae", "rhizoids"],
+    "correctAnswer": 3
+}, {
+    "question": "One common feature of fungi, algae, mosses and ferns is that they are ",
+    "choices": ["photosynthetic", "show alternation of generation", "can survive harsh weather conditions", "have no seeds"],
+    "correctAnswer": 3
+}, {
+    "question": "The following are major groups of the plant kingdom EXCEPT ",
+    "choices": ["Bryophyta", "Chlorophyta", "Pteridophyta", "Spermatophyta"],
+    "correctAnswer": 1
+}, {
+    "question": "_____________is a form of sexual reproduction ",
+    "choices": ["Grafting", "Budding", "Fission", "Conjugation"],
+    "correctAnswer": 3
+}, {
+    "question": "Sexual reproduction in Spirogyra is called ",
+    "choices": ["Fertilization", "Symbiosis", "Conjugation", "Reproduction"],
+    "correctAnswer": 2
+}, {
+    "question": "The carrier of the hereditary characters in plants is the ",
+    "choices": ["Cell", "nucleus", "chromosome", "gene"],
+    "correctAnswer": 3
+}, {
+    "question": "All are necessary for photosynthesis except_____________ ",
+    "choices": ["Water", "Chlorophyll", "Sunlight", "Oxygen"],
+    "correctAnswer": 3
+}, {
+    "question": "Growing yam tendrils climb for support. This growth response is ",
+    "choices": ["haptotropism", "geotropism", "phototropism", "hydrotropism"],
+    "correctAnswer": 0
+}, {
+    "question": "Which is the correct order in an evolutionary sequence for the following plant groups? ",
+    "choices": ["Bacteria \u2192 ferns \u2192 algae \u2192 mosses \u2192 seed plants", "Bacteria \u2192 ferns \u2192 mosses \u2192 algae \u2192 seed plants", "Bacteria \u2192 algae \u2192 mosses \u2192 ferns \u2192 seed plants", "Bacteria \u2192 mosses \u2192 algae \u2192 ferns \u2192 seed plants"],
+    "correctAnswer": 2
+}, {
+    "question": "------------ is not part of the whorls of a flower.",
+    "choices": ["calyx", "corolla", "androecium", "Antheridium"],
+    "correctAnswer": 3
+}, {
+    "question": "A dry fruit which can break into several parts each containing one seed is a ",
+    "choices": ["caryopsis", "aggregate fruit", "legume", "schizocarp"],
+    "correctAnswer": 3
+}, {
+    "question": "A dry indehiscent, winged fruit formed from one carpel is known as a ",
+    "choices": ["Schizocarp", "Caryopsis", "Samara", "nut"],
+    "correctAnswer": 2
+}, {
+    "question": "A true fruit is formed from ",
+    "choices": ["fertilized ovary and other floral parts", "a fertilized ovary", "a fertilized ovary and calyx", " a fertilized and fleshy receptacle"],
+    "correctAnswer": 1
+}, {
+    "question": "Irish potato is a ",
+    "choices": ["bulb", "tap root", "rhizome", "root tuber"],
+    "correctAnswer": 3
+}, {
+    "question": "One major difference between an Angiosperm and a Gymnosperm is that seeds in Gymnosperms are borne in ",
+    "choices": ["Cones", "fruits", "flowers", "ovary"],
+    "correctAnswer": 0
+}, {
+    "question": "Reserved food material in the seed is stored in the ",
+    "choices": ["epicarp", "endocarp", "endosperm", "mesocarp"],
+    "correctAnswer": 2
+}, {
+    "question": "What type of fruit is a mango fruit? ",
+    "choices": ["Berry", "Hesperidium", "Drupe", "Nut"],
+    "correctAnswer": 2
+}, {
+    "question": "Which of the following species exhibit an aerial root? ",
+    "choices": ["Ficus", "Centrosema", "Antigonon", "Lantana"],
+    "correctAnswer": 0
+}, {
+    "question": "Which of these plants has an emerginate apex? ",
+    "choices": ["Bauhinia", "Pistia", "Ixora", "Musa"],
+    "correctAnswer": 0
+}, {
+    "question": "Which plant stores food in its roots? ",
+    "choices": ["Cassava", "cocoyam", "Irish potato", "onion"],
+    "correctAnswer": 0
+}, {
+    "question": "An example of Vascular tissues is -------------- ",
+    "choices": ["Trichome", "Xylem", "Stomata", "Epidermis"],
+    "correctAnswer": 1
+}, {
+    "question": "The living part of phloem tissue is ",
+    "choices": ["sieve plate", "companion cell", "sieve element", "cytoplasm"],
+    "correctAnswer": 1
+}, {
+    "question": "Which of the following tissues are made up of dead cells ",
+    "choices": ["meristems", "xylem vessels", "cambium", "mesophyll"],
+    "correctAnswer": 1
+}, {
+    "question": "A plant vacuole contains ",
+    "choices": ["dissolved chemicals, sugars, salts, pigments and crystals", "waste products of metabolism, DNA, RNA and crystals", "pigments, crystals, DNA and waste products of metabolism", "RNA, DNA, sugars and salts"],
+    "correctAnswer": 0
+}, {
+    "question": "Excessive loss of water in plants is known as ",
+    "choices": ["Osmosis", "Osmoregulation", "Transpiration", "Excretion"],
+    "correctAnswer": 2
+}, {
+    "question": "Starch granules in plants is equivalent to _____________ granules in animals ",
+    "choices": ["Food", "Chromatin", "Lysosome", "Glycogen"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of the following is a plant excretory product? ",
+    "choices": ["Oil", "Cytokinin", "Resin", "amino acids"],
+    "correctAnswer": 2
+}, {
+    "question": " A plant which grows on another without causing harm to the host plant is called \u2013\u2013 ",
+    "choices": ["a parasite", "a saprophyte", "an epiphyte", "a predator"],
+    "correctAnswer": 2
+}, {
+    "question": "Plants which can survive in places where water supply is limited are ",
+    "choices": ["bryophytes", "mesophytes", "xerophytes", "hydrophytes"],
+    "correctAnswer": 2
+}, {
+    "question": "The muscle cell fluid of an athlete was tested immediately after a 100m race and was found to contain a high concentration of lactic acid. Explain what could have caused this. The",
+    "choices": ["Athlete must have eaten food containing lactic acid", "Athlete must have injected lactic acid into his blood just before the race", "Athlete must have carried out anaerobic respiration during the race", "Athlete must have inhaled lactic acid from the environment during the race"],
+    "correctAnswer": 2
+}, {
+    "question": "One of this is not a continuous variation",
+    "choices": ["Height", "Weight", "Tongue rolling", "Skin colour"],
+    "correctAnswer": 2
+}, {
+    "question": "One of the following is usually worm-like, cylindrical or flattened",
+    "choices": ["Molluscs", "Insects", "Nematodes", "Annelids"],
+    "correctAnswer": 2
+}, {
+    "question": "The roots hairs are for",
+    "choices": ["Strength and support", "Conducting liquid", "Absorption of water and salt", "Penetration into the soil"],
+    "correctAnswer": 2
+}, {
+    "question": "The random way genes recombine during meiosis and fertilization leads to",
+    "choices": ["Genetic variation", "Pheno type", "Genome", "Genotype"],
+    "correctAnswer": 0
+}, {
+    "question": "An ecosystem is composed of all of the following except",
+    "choices": ["Plants", "Animals", "Temperature", "Meadows"],
+    "correctAnswer": 0
+}, {
+    "question": "In a food web, tertiary consumers belong to which trophic level",
+    "choices": ["First", "Second", "Third", "Fourth"],
+    "correctAnswer": 3
+}, {
+    "question": "The primary structure responsible for pumping blood for circulation through the mammalian circulatory system is the",
+    "choices": ["Veins", "Right auricle", "Arteries", "Left ventricle"],
+    "correctAnswer": 3
+}, {
+    "question": "The cocoon into which an earthworm lays its egg is produced in the",
+    "choices": ["Prostomium", "Peristomium", "Chaeta", "Clitellum"],
+    "correctAnswer": 3
+}, {
+    "question": "In bony fishes, the swim bladder is used for",
+    "choices": ["Adjusting the weight of the fish when swimming at different levels", "Extracting oxygen from water which enters the mouth of the fish", "Equalizing fluid pressures between the fish and the surrounding water", "Absorbing more water when the fish is about to descend to a lower level"],
+    "correctAnswer": 0
+}, {
+    "question": "The theory that new organs or characteristics develop in organisms when there is need for them was postulated by",
+    "choices": ["Charles Darwin", "Wallace", "Jean Lamarck", "GregorMendel"],
+    "correctAnswer": 2
+}, {
+    "question": "Ribosomes are found in all living cells. What is their function?",
+    "choices": ["Cellular respiration", "Synthesis of proteins", "Excretion of waste products", "Intracellular transport"],
+    "correctAnswer": 1
+}, {
+    "question": "Which of the following is NOT a function of the nucleus of a cell?",
+    "choices": ["It controls the life processes of the cell", "It translates genetic information for the manufacture of proteins", " It stores and carries hereditary information", "It is a reservoir of energy for the cell"],
+    "correctAnswer": 3
+}, {
+    "question": "Plants that are adapted to grow in dry land where water content is low are",
+    "choices": ["Halophytes", "Hydrophytes", "Xerophytes", "Mesophytes"],
+    "correctAnswer": 2
+}, {
+    "question": "What happens to a man whose pancreas has been surgically removed?",
+    "choices": ["The level of blood sugar would increase", "The glycogen content of the liver would increase", "His blood pressure would decrease", "His weight would increase appreciably"],
+    "correctAnswer": 0
+}, {
+    "question": "The hereditary factor of the material for inheritance is",
+    "choices": ["Organ", "Sex", "Gene", "Ovum"],
+    "correctAnswer": 2
+}, {
+    "question": "One of the following is not an excretory structure",
+    "choices": ["Stomata", "Blood", "Kidney", "Flame cell"],
+    "correctAnswer": 1
+}, {
+    "question": "In a food web, tertiary consumers belong to which trophic level",
+    "choices": ["First", "Second", "Third", "Fourth"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of the following factors is not associated with aquatic habitat",
+    "choices": ["Temperature", "Light intensity", "Humidity", "Wave action"],
+    "correctAnswer": 2
+}, {
+    "question": "Which of the following constitutes the main internal tissue of leaf?",
+    "choices": ["Cuticle", "Mesophyll", "Vascular bundle", "Lower epidermis"],
+    "correctAnswer": 1
+}, {
+    "question": "In insects, the structure that performs the same function as the kidney in man is the",
+    "choices": ["Nephridium", "Flamecell", "Malphigian tubule", "Trachea"],
+    "correctAnswer": 2
+}, {
+    "question": "One of this is not a shape of finger prints",
+    "choices": ["Circles", "Loop", "Whorls", "Arches"],
+    "correctAnswer": 0
+}, {
+    "question": "What is the term used to describe the sum total of biotic and abiotic factors in the environment of the organism?",
+    "choices": ["Habitat", "Biome", "Ecosystem", "Ecological niche"],
+    "correctAnswer": 2
+}, {
+    "question": "S phase in growth curve is known as?",
+    "choices": ["Rapid phase", "Shot phase", "Long phase", "End phase"],
+    "correctAnswer": 0
+}, {
+    "question": "Carbohydrates are stored in animal cells as",
+    "choices": ["Glycogen", "Glucose", "Maltase", "Starch"],
+    "correctAnswer": 0
+}, {
+    "question": "The rhesus factor of blood was first identified in a category of",
+    "choices": ["Monkeys", "Human females", "Human males", "Chimpanzees"],
+    "correctAnswer": 0
+}, {
+    "question": "The division of nucleus is known as",
+    "choices": ["Karyokinesis", "Cytokinesis", "Isogamy", "Isopomy"],
+    "correctAnswer": 0
+}, {
+    "question": "In the mammal, the autonomic system consists of",
+    "choices": ["Sympathetic and parasympathetic systems", "Brain and spinal nerves", "Brain and cranial nerves", "Soinal cord and spinal nerves"],
+    "correctAnswer": 0
+}, {
+    "question": "The reproduction of cell is controlled by which of the following:",
+    "choices": ["RNA", "DNA", "mRNA", "mitosis"],
+    "correctAnswer": 1
+}, {
+    "question": "The order of food passage in the digestive system is",
+    "choices": ["Ileum-Cacum-Colon-Rectum", "Ileum-Colon-Cacum-Rectum", "Colon-Ileum-Cacum-Rectum", "Colon-Cacum-Ileum-Rectum"],
+    "correctAnswer": 0
+}, {
+    "question": "In plants, the structures that play roles similar to the arteries and veins of animals are the",
+    "choices": ["Xylem and Phloem", "Root hairs and xylem", "Lenticels and phloem", "Roots and stems"],
+    "correctAnswer": 0
+}, {
+    "question": "Two plants with red flowers were back crossed, which of the following results indicates that the plants are heterozygous red flower, where red flowers are dominants?",
+    "choices": ["75% red and 25% white", "50% red and 50% white", "100% white", "100% red"],
+    "correctAnswer": 0
+}, {
+    "question": "Genetically modified food products have not become universally accepted because",
+    "choices": ["They are not tasty as others produced by conventional means", "They are usually costlier than others produced by conventional means", "Their effects on human consumers is not yet fully understood", "The technology can be applied only in developed countries"],
+    "correctAnswer": 0
+}, {
+    "question": "Which of these animals is not metamerically segmented",
+    "choices": ["Tapeworm", "Earthworm", "Centipede", "Shark"],
+    "correctAnswer": 3
+}, {
+    "question": "The sterile individuals in the honey bee are known as",
+    "choices": ["Drone", "Queens", " Workers", "None of these"],
+    "correctAnswer": 2
+}, {
+    "question": "Which of the following is used mainly for balancing in fish?",
+    "choices": ["The caudal fin", "The pectoral fin", "The anal fin", "The dorsal fin"],
+    "correctAnswer": 3
+}, {
+    "question": "Octopus is popularly known as____fish",
+    "choices": ["Devil", "Jelly", "Cray", "Shark"],
+    "correctAnswer": 0
+}, {
+    "question": "The sexual reproductive units produced by mature individuals or sexually reproducing species of organism is called",
+    "choices": ["Sperms", "Ova", "Zygotes", "Gametes"],
+    "correctAnswer": 3
+}, {
+    "question": "Which of these does not have respiratory and circulatory systems",
+    "choices": ["Annelids", "Nematodes", "Insects", "Molluscs"],
+    "correctAnswer": 1
+}, {
+    "question": "Spear grass has underground structure called",
+    "choices": ["Bulbs", "Corms", "Rhizomes", "Tap roots"],
+    "correctAnswer": 2
+}, {
+    "question": "Maize is best stored against insect attack",
+    "choices": ["On raised platform", "In fumigated silos", "While still on the cob", "In humid metal tanks"],
+    "correctAnswer": 1
+}, {
+    "question": "Circulation of blood to all parts of the body except the lungs is through",
+    "choices": ["The pulmonary artery", "Systematic circulation", "The lymphatic system", "Pulmonary circulation"],
+    "correctAnswer": 1
+}, {
+    "question": "Manufactured food in plants is transported through the",
+    "choices": ["Xylem", "Phloem", "Cambium", "Cortex"],
+    "correctAnswer": 1
+}, {
+    "question": "The genetic make-up of an organism is called",
+    "choices": ["Genotype", "Phenotype", "Variation", "Gene"],
+    "correctAnswer": 0
+}, {
+    "question": "A sudden change in a gene or genes is called",
+    "choices": ["Fertilization", " Variation", "Mutation", "Heredity"],
+    "correctAnswer": 2
+}, {
+    "question": "Which of the following statements is true of blood groups and blood transfusion?",
+    "choices": ["Group A can donate to group A only", "Group B can donate to group B only", "Group O is the universal recipient", "Group AB is the universal recipient."],
+    "correctAnswer": 3
+}, {
+    "question": "A tall plant crossed with a dwarf one produces off spring of which half are tall and half are dwarf. What are the genotypes of the parents?",
+    "choices": ["Tt, tt", "TT, tt", "Tt, Tt", "TT,TT"],
+    "correctAnswer": 0
+}, {
+    "question": "Both recessive and dominant characters are found",
+    "choices": ["at the same locus of a homologous chromosome", "at different loci of homologous chromosome", "on different chromosomes in the cell", "on the same chromatid in a chromosome."],
+    "correctAnswer": 0
+}, {
+    "question": "Which of the following is likely to encourage inbreeding in plants",
+    "choices": ["monoecious", "dioecious", "hermaphrodite", "protandrous."],
+    "correctAnswer": 1
+}, {
+    "question": "The probability of a baby being a boy or a girl depends on the contribution of the",
+    "choices": ["mother\u2019s sex cell", "mother\u2019s X chromosome", " father\u2019s sex cell", "father\u2019s somatic chromosome."],
+    "correctAnswer": 2
+}, {
+    "question": "The ability of an organism to live successfully in an environment is known as",
+    "choices": ["succession", "resistance", "adaptation", "competition."],
+    "correctAnswer": 2
+}, {
+    "question": "For heterotrophic organisms, competition is least caused by inadequacy of",
+    "choices": ["nutrients", "light", "space", "mates"],
+    "correctAnswer": 1
+}, {
+    "question": "The most important adaptation of xerophytes is the ability of the protoplasm to",
+    "choices": ["absorb water and swell", "resist being damaged by loss by loss of water", "shrink from the cell wall", "store sugar and minerals in the vacuoles."],
+    "correctAnswer": 1
+}, {
+    "question": "The stem of a typical aquatic plant usually has many",
+    "choices": ["water cavities", "water conducting cells", "air cavities", "intercellular spaces."],
+    "correctAnswer": 2
+}, {
+    "question": "A green snake in green grass is able to escape notice from predators because of its",
+    "choices": ["warning colouration", "disruptive colouration", "cryptic colouration", "counter shading."],
+    "correctAnswer": 2
+}]

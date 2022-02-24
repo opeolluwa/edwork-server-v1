@@ -1,0 +1,989 @@
+[{
+    "question": "In a class, 37 students take at least one of chemistry, economics and government, 8 students take chemistry, 19 take economics and 25 take government. 12 students take economics and government but nobody takes chemistry and economics. How many students take both chemistry and government?.",
+    "choices": ["3", "4", "5", "6"],
+    "correctAnswer": 0
+}, {
+    "question": "A businessman invested a total of N200,000 in two companies which paid dividends of 5% and 7% respectively. If he received a total of N11,600 as dividends, how much did he invest at 7%?",
+    "choices": ["N160,000", "N140,000", "N120,000", "N80,000"],
+    "correctAnswer": 3
+}, {
+    "question": "A cyclist rode for 30minutes at xkm\/hr. If the total distance covered is less than 60km, what is the range of values of x?",
+    "choices": ["x<14", "x<20", "x<29", "x<28"],
+    "correctAnswer": 3
+}, {
+    "question": "Factorize 16(3x+2y)\u00b2 \u2013 25(a+2b)\u00b2",
+    "choices": ["(12x+8y+5a+10b) (12x+8y-5a-10b)", "(12x+8y-5a-10b) (12x+8y-5a-10b)", "20(3x+2y-a-2b) (3x+2y+a+2b)", "20(3x+2y+a+2b) (3x+2y+a+2b)"],
+    "correctAnswer": 0
+}, {
+    "question": "A cone has a base radius 4cm and height 3cm. The area of its curved surface is",
+    "choices": ["12\u1d2bcm\u00b2", "24 \u1d2bcm\u00b2", "20 \u1d2bcm\u00b2", "15 \u1d2bcm\u00b2"],
+    "correctAnswer": 2
+}, {
+    "question": "Expand the expression (x\u00b2-2x-3)(x\u00b2+x+1)",
+    "choices": ["x\u2074 \u2013 4x\u00b2 - 5x \u2013 3", "\u2013x\u00b3 \u2013 4x\u00b2 \u2013 5x \u2013 3", "x\u2074 \u2013 x\u00b3 \u2013 4x\u00b2 \u2013 5x \u2013 3", "x\u2074 - 4x\u00b2 \u2013 5x \u2013 3."],
+    "correctAnswer": 2
+}, {
+    "question": "A girl walks 30m from a point P on a bearing of 040\u2070 to a point Q. She then walks 30m on a bearing of 140\u2070 to a point R. the bearing of R from P is",
+    "choices": ["90\u2070", "50\u2070", "45\u2070", "40\u2070"],
+    "correctAnswer": 2
+}, {
+    "question": "A regular polygon has each of it angles as 160\u2070. What is the number of sides of the polygon?",
+    "choices": ["36", "9", "18", "20"],
+    "correctAnswer": 2
+}, {
+    "question": "The interior angles of a pentagon are: 180\u2070, 118\u2070, 80\u2070, 78\u2070 and x. The value of x is:",
+    "choices": ["75\u2070", "108\u2070", "120\u2070", "84\u2070"],
+    "correctAnswer": 3
+}, {
+    "question": "All the vertices of an isosceles triangle lie on a circle and each of the base angles of the triangle is 65\u2070. The angle subtended at the centre of the circle by the base of the triangle is:",
+    "choices": ["130\u2070", "115\u2070", "100\u2070", "65\u2070"],
+    "correctAnswer": 2
+}, {
+    "question": "A square tile measures 20cm by 20cm. How many of such files will cover a floor measuring 5m by 4m.",
+    "choices": ["500", "400", "320", "250"],
+    "correctAnswer": 0
+}, {
+    "question": "The volume of a certain sphere is numerically equal to twice its surface area. The diameter of the sphere is:",
+    "choices": ["6", "9", "12", "\u221a6"],
+    "correctAnswer": 2
+}, {
+    "question": "A bearing of 310\u2070, expressed as a compass bearing is:",
+    "choices": ["N50\u2070W", "N40\u2070W", "S40\u2070W", "S50\u2070W"],
+    "correctAnswer": 0
+}, {
+    "question": "The average of the three children in a family is 9 years. If the average age of their parents is 39 years, the average age of the whole family is:",
+    "choices": ["20 years", "21 years", "24 years", "27 years"],
+    "correctAnswer": 1
+}, {
+    "question": "A woman buys 4 bags of rice for \u20a656 per bag and 3 bags of beans for \u20a626 per bag using the currency 'NAIRA' (\u20a6) in base 7. What is the total cost of the items in another currency 'ANTI' (\u20b3) in base 8?",
+    "choices": ["\u20b3224", "\u20b3114", "\u20b3340", "\u20b3440"],
+    "correctAnswer": 2
+}, {
+    "question": "When the price of egg was raised by \u20a62 an egg, the number of eggs which can be bought for \u20a6120 is reduced by \u20a65. The present price of an egg is",
+    "choices": ["\u20a66", "\u20a67", "\u20a68", "\u20a610"],
+    "correctAnswer": 0
+}, {
+    "question": "How long will it take a sum of money invested at 8% simple interest to double the original sum?",
+    "choices": ["8 years", "10.5 years", "12 years", "12.5 years"],
+    "correctAnswer": 3
+}, {
+    "question": "The journey from Lagos to Ibadan usually takes a motorist 1 hour 30 minutes. By increasing his average speed by 20km\/hr, the motorist saves 15 minutes. His usual speed, in km\/hr is",
+    "choices": ["100", "90", "85", "80"],
+    "correctAnswer": 0
+}, {
+    "question": "The smallest section of a rod which can be cut into exactly equal sections, each of either 30cm 0r 36cm in length is",
+    "choices": ["90cm", "180cm", "360cm", "540cm"],
+    "correctAnswer": 1
+}, {
+    "question": "If x = 0.0012 + 0.00074 + 0.003174, what is the difference between x and 2 decimal places and x to 1 significant figure?",
+    "choices": ["0.01", "0.0051", "0.1", "0.005"],
+    "correctAnswer": 3
+}, {
+    "question": "The radius of a circle is given as 10cm subject to an error of 0.2cm. the error in the are of the circle is",
+    "choices": ["1\/4%", "1\/50%", "2%", "4%"],
+    "correctAnswer": 3
+}, {
+    "question": "A survey of 100 students in an institution shows that 80 students speak Hausa and 20 students speak Igbo, while only 9 students speak both language. How many students speak neither Hausa nor Igbo?",
+    "choices": ["0", "9", "11", "20"],
+    "correctAnswer": 1
+}, {
+    "question": "The expression a\u00b3 + b\u00b3 is equal to",
+    "choices": ["(a\u00b2 + b)(a \u2013 ab \u2013 b\u00b2)", "(a + b)(a\u00b2 \u2013 ab + b\u00b2)", "(a \u2013 b\u00b2)(a\u00b2 \u2013 ab + b)", "(a \u2013 b)(a\u00b2 + ab + b\u00b2)"],
+    "correctAnswer": 1
+}, {
+    "question": "A cylinder has height 4cm and base radius 5cm. its volume to 3 significant figure is",
+    "choices": ["314.2 cm\u00b2", "31.42 cm\u00b2", "251.4 cm\u00b2", "251 cm\u00b2"],
+    "correctAnswer": 0
+}, {
+    "question": "The difference of two numbers is 10, while their product is 39. Find these numbers",
+    "choices": ["-3 and 10 or 13 and 10", "3 and -10 or 3 and 13", "3 and -3 or 3 and 13", "-3 and -13 or 13 and 3"],
+    "correctAnswer": 3
+}, {
+    "question": "The average age of x pupils in a class is 14 years 2 months. A pupil of 15 years 2 months joins the class and the average age is increased by one month. Find x.",
+    "choices": ["12", "6", "11", "14"],
+    "correctAnswer": 2
+}, {
+    "question": "If the distance covered by a body in time t seconds is s = t\u00b3 \u2013 6t\u00b2 \u2013 5t, what is its initial velocity?",
+    "choices": ["0ms\u207b\u00b9", "-4ms\u207b\u00b9", "(3t \u2013 12t \u2013 5)ms\u207b\u00b9", "5ms\u207b\u00b9"],
+    "correctAnswer": 2
+}, {
+    "question": "In a throw of a fair die the probability of obtaining an even number is",
+    "choices": ["1", "2\/3", "1\/2", "2\/3"],
+    "correctAnswer": 2
+}, {
+    "question": "Two fair coins are tossed simultaneously. What is the probability of obtaining at least 1 tail turns up?",
+    "choices": ["1\/4", "3\/4", "1\/2", "1"],
+    "correctAnswer": 1
+}, {
+    "question": "One angle of a polygon has each of its angles as 160\u2070. What is the number of sides of the polygon?",
+    "choices": ["18", "36", "9", "20"],
+    "correctAnswer": 0
+}, {
+    "question": "One angle of an octagon is 100\u2070 while the other sides are equal. Find each of these exterior angles.",
+    "choices": ["80", "60", "140", "40"],
+    "correctAnswer": 2
+}, {
+    "question": "In a right-angled triangle, tan \u04e8 = 3\/4 , what is the value of sin\u04e8 + cos\u04e8 ?",
+    "choices": ["7\/3", "7\/4", "7\/5", "4\/3"],
+    "correctAnswer": 2
+}, {
+    "question": "The coordinates of the point dividing the line AB (-1, 2) and B(3, 4) extremely in the ratio 3:2 is",
+    "choices": ["(11, 8)", "(8, 5)", "(5, 11)", "(5, 9)"],
+    "correctAnswer": 0
+}, {
+    "question": "The ends of a diameter of a circle are (-2, 3) and (4, 7). The equation of the circle is",
+    "choices": ["x\u00b2 + y\u00b2 \u2013 2x -10y + 15 = 0", "x\u00b2 + y\u00b2 + 2x \u2013 10y + 13 = 0", "x\u00b2 + y\u00b2 \u2013 2x \u2013 10y + 15 = 0", "x\u00b2 + y\u00b2 \u2013 2x -10y -15 = 0."],
+    "correctAnswer": 1
+}, {
+    "question": "The centre and radius of the circle with the equation x\u00b2 + y\u00b2 \u2013 2x + 6y + 5 = 0 are respectively",
+    "choices": ["(1, 3) and 5", "(3, 1) and \u221a5", "(1, -3) and \u221a5", "(3, -1) and 5."],
+    "correctAnswer": 2
+}, {
+    "question": "When the expression pm\u00b2 + qm + 1 is divided by (m \u2013 1), it has a remainder 4. Find p and q respectively",
+    "choices": ["2, 1", "2, -1", "-1, 2", "1, 2"],
+    "correctAnswer": 2
+}, {
+    "question": "If \u03b1 and \u03b2 are the roots of the equation x\u00b2 \u2013 5x \u2013 7 = 0. \u03b1\u00b2\u03b2 + \u03b1\u03b2\u00b2 is",
+    "choices": ["35", "-35", "42", "-42"],
+    "correctAnswer": 1
+}, {
+    "question": "If \u03b1 and \u03b2 are the roots of the equation 2x\u00b2 + 7x + 3 = 0. Obtain the equation whose roots are 1\/\u03b1\u00b2 and 1\/\u03b2\u00b2",
+    "choices": ["9x\u00b2 \u2013 37x + 4 = 0", "4x\u00b2 + 49x + 9 = 0", "2x\u00b2 \u2013 7x + 3", "3x\u00b2 \u2013 37x \u2013 2 = 0"],
+    "correctAnswer": 0
+}, {
+    "question": "A girl has 98 beads, and all but 14 were lost. How many beads did she loose?",
+    "choices": ["84", "112", "114", "14"],
+    "correctAnswer": 0
+}, {
+    "question": "17, 34, 51, 68, _",
+    "choices": ["75", "82", "90", "85"],
+    "correctAnswer": 3
+}, {
+    "question": "A car travels at 120km\/h. How long would it take it to get to Jebba which is 2,400km away?",
+    "choices": ["20hrs", "25hrs", "15hrs", "30hrs"],
+    "correctAnswer": 0
+}, {
+    "question": "A man buys 6 books and 3 bags. If a book cost N17 and a bag cost N25. How much has he spent?",
+    "choices": ["N112", "N177", "N125", "N150"],
+    "correctAnswer": 1
+}, {
+    "question": "It takes 15 minutes to fill 125 gallons with petrol from a tanker. How long will it take to fill 725 gallons?",
+    "choices": ["92mins", "45mins", "87mins", "102mins"],
+    "correctAnswer": 2
+}, {
+    "question": "If it takes 15 men 6 \u00bd days to build a house, How many houses can they build in 45 days?",
+    "choices": ["3 houses", "7 houses", "8 houses", "5 houses"],
+    "correctAnswer": 1
+}, {
+    "question": "If it takes a boy 5minutes to run 1km, how long would it take him to run 2 \u00bd km?",
+    "choices": ["10 \u00bd mins", "15mins", "12 \u00bd mins", "11 \u00bd mins"],
+    "correctAnswer": 2
+}, {
+    "question": "How many bottles are in a dozen crates containing 24 bottles each?",
+    "choices": ["288", "300", "180", "120"],
+    "correctAnswer": 0
+}, {
+    "question": "What is the difference between 2:45 am and 12:32 pm?",
+    "choices": ["9Hrs 47min", "14Hrs 10min", "5Hrs 25min", "10Hrs "],
+    "correctAnswer": 0
+}, {
+    "question": "2 scores plus 4 dozens multiplied by 14 equals?",
+    "choices": ["118", "1232", "1882", "1432"],
+    "correctAnswer": 1
+}, {
+    "question": "1\/3 of 100 equal?",
+    "choices": ["33 1\/3", "30", "3", "33"],
+    "correctAnswer": 0
+}, {
+    "question": "1800 multiplied by what number will give you 100800",
+    "choices": ["56", "28", "41", "38"],
+    "correctAnswer": 0
+}, {
+    "question": "5.8 x 8.1 x 9.8 =",
+    "choices": ["460.4", "350.3", "560.8 ", "260.7"],
+    "correctAnswer": 0
+}, {
+    "question": "A farmer has 41 bags of oranges. Each bag contains 59 oranges each. How many oranges does the farmer have?",
+    "choices": ["3324", "1591", "2831", "2419"],
+    "correctAnswer": 3
+}, {
+    "question": "If 16 of the same book weight 4kg. How much does one book weigh?",
+    "choices": ["200g", "250g", "55g0", "400g"],
+    "correctAnswer": 1
+}, {
+    "question": "What is 5 % of N575?",
+    "choices": ["30.8", "28.75", "25.5", "55.5"],
+    "correctAnswer": 1
+}, {
+    "question": "What is the difference between 500 multiplied by 700 and 700 multiplied by 500?",
+    "choices": ["1000", "100", "0", "10000"],
+    "correctAnswer": 2
+}, {
+    "question": "Find the difference between the mean and median of the numbers 1,2,3,4,5,6,7,8,9,10",
+    "choices": ["0", "1\/9", "5", "4\/9"],
+    "correctAnswer": 0
+}, {
+    "question": "there are eight men and nine women on a committee. In how many ways can a subcommittee of two men and three women be chosen?",
+    "choices": ["2352", "112", "6188", "28224"],
+    "correctAnswer": 0
+}, {
+    "question": "solve \u221a(x+7) = x-5",
+    "choices": ["9", "5,-7", "2", "2,-9"],
+    "correctAnswer": 0
+}, {
+    "question": "Find the positive solution of the equation log(x+1)+log(x+4)=1",
+    "choices": ["6", "0", "2", "1"],
+    "correctAnswer": 3
+}, {
+    "question": "Find the remainder when x\u00b3 - 3x\u00b2 + 4x - 7 is divided by (x+2)",
+    "choices": ["-3", "-7", "-35", "x\u00b2-3x+14"],
+    "correctAnswer": 2
+}, {
+    "question": "The minute hand of a clock is 7 cm long. What distance does the tip of the minute hand move in 1 1\/2 hours? (Take \u03c0 = 22\/7)",
+    "choices": ["33 cm", "44 cm", "55 cm", "65 cm"],
+    "correctAnswer": 1
+}, {
+    "question": "Find the slope of the line which is perpendicular to the line 3x + 5y +17 = 0",
+    "choices": ["5\/3", "-5\/3", "3\/5", "17\/3"],
+    "correctAnswer": 0
+}, {
+    "question": "Which of the following points does not lie on the lie 2y + 5x -4=0?",
+    "choices": ["(0.8, 0)", "(1,-0.5)", " (0,2)", "(2,3)"],
+    "correctAnswer": 3
+}, {
+    "question": "A straight line has the equation 10y = 3x + 15. Which of the following is true?",
+    "choices": ["The gradient is 0.3 and the y-intercept is 1.5", "The gradient is 15 and the y-intercept is 3", "The gradient is 15 and the y-intercept is 3", "The gradient is 1.5 and the y-intercept is 0.3"],
+    "correctAnswer": 0
+}, {
+    "question": ". P is the point (2, 7) and Q is the point (6, 3). What is the gradient of PQ?",
+    "choices": ["1", "- 1", "0.5", "-0.5"],
+    "correctAnswer": 1
+}, {
+    "question": "P is the point (3, 5). Q is the point (-1, 9). R is the midpoint of PQ. Which one of the following lines does R lie on?",
+    "choices": ["y = x + 6", "y = x + 8", "y = x - 6", "y = x - 8"],
+    "correctAnswer": 0
+}, {
+    "question": "A straight line has a gradient of -2 and passes through the point (4, 1). What is its equation?",
+    "choices": ["y + 2x = 6", "y = 2x - 6", "y + 2x \u2013 9 = 0", "2y = x -2"],
+    "correctAnswer": 2
+}, {
+    "question": "The line y = 5x \u2013 3 and y = 2x + 9 intersects at P. what are the coordinates of P? ",
+    "choices": ["(2, 7)", " (2, 13)", " (4, 17)", "(-4,-23)"],
+    "correctAnswer": 2
+}, {
+    "question": "A is the point (1, 5), B is the point (4, 7) and C is the point (5, 2). Triangle ABC is",
+    "choices": ["Right-angle", "Scalene with no right angle", "Equilateral", "Isosceles"],
+    "correctAnswer": 1
+}, {
+    "question": "If un = 2, 6, 10, \u2026, the 12th term of the sequenceis",
+    "choices": ["46", "50", "48", "44"],
+    "correctAnswer": 0
+}, {
+    "question": "If un = 2, 6, 10, \u2026, the last tem of the sequence is 90. The number of terms in the sequence is",
+    "choices": ["20", "22", "24", "23"],
+    "correctAnswer": 3
+}, {
+    "question": "If un = 2, 6, 10, \u2026, the sum of the terms of the sequence above is ",
+    "choices": ["1104", "1058", "968", "1012"],
+    "correctAnswer": 1
+}, {
+    "question": ". In an arithmetic sequence with 25 terms, if the first term is 60 and last term is -12 the common difference is",
+    "choices": ["3", "2", "-3", "-2"],
+    "correctAnswer": 2
+}, {
+    "question": "In an arithmetic sequence with 25 terms, if the first term is 60 and last term is -12, the sum of the terms of the sequence is",
+    "choices": ["600 ", "2400", "900", "1800"],
+    "correctAnswer": 0
+}, {
+    "question": "In an arithmetic sequence whose 4th term is 14 and whose 11th term is 70, the first term and common difference are",
+    "choices": ["a = -10, d = 8", " a = -7, d = 7 ", "a = 10, d = 8 ", "a =-14, d = 7"],
+    "correctAnswer": 2
+}, {
+    "question": "In an arithmetic sequence whose 4th term is 14 and whose 11th term is 70, the sum of the first 12 terms of the sequence is",
+    "choices": ["468", "330", "456", "408"],
+    "correctAnswer": 3
+}, {
+    "question": "Ann goes swimming regularly. She wants to improve her fitness, so she decides to swim 10 lengths in the first session and increase the number of lengths she swims by 2 every session. When she reaches 50 lengths in a session she will not increase the number any further. After how many sessions does Ann swim 50 lengths for the first time?",
+    "choices": ["21", "22", "20", "19"],
+    "correctAnswer": 0
+}, {
+    "question": "Ann goes swimming regularly. She wants to improve her fitness, so she decides to swim 10 lengths in the first session and increase the number of lengths she swims by 2 every session. When she reaches 50 lengths in a session she will not increase the number any further. Ann decides she will give herself a reward when she has swum a total of 400 lengths. After how many sessions does she get her reward?",
+    "choices": ["15", "25", "16", "24"],
+    "correctAnswer": 2
+}, {
+    "question": "Ann goes swimming regularly. She wants to improve her fitness, so she decides to swim 10 lengths in the first session and increase the number of lengths she swims by 2 every session. When she reaches 50 lengths in a session she will not increase the number any further. If Ann asks her friend Joy to come swimming with her, Joy starts coming at Sue\u2019s 8th session. Joy starts to swim 15 lengths and increases the number of the lengths by 5 each time. After how many of Joy\u2019s sessions does she swim the same number of lengths as Ann?",
+    "choices": ["10", "5", "11", "4"],
+    "correctAnswer": 3
+}, {
+    "question": "A dealer increased the price of an item by 20%, and then increased the price of the same item by 30%. If x is the original price, what is the price after the two increases?",
+    "choices": ["1.5 x", "1.56 x", "x + 0.5", "x + 0.56"],
+    "correctAnswer": 1
+}, {
+    "question": "Two dice are thrown. What is the probability that the sum of the two numbers obtained is greater than 10?",
+    "choices": [" 1\/12 ", " 1\/36", " 1\/6", "1\/4"],
+    "correctAnswer": 0
+}, {
+    "question": ". If x and y are two real numbers such that 3x + 2y = 5 and 5x + 4y = 9, then 4x + 3y =",
+    "choices": ["0", "2", "5", "7"],
+    "correctAnswer": 3
+}, {
+    "question": ". If 35 is the median of the data set including 21, 7, 45, 33, 62 and x, then x =",
+    "choices": ["3", "14", "37", "33"],
+    "correctAnswer": 2
+}, {
+    "question": "The ....... is the value you calculate when you want the arithmetic average",
+    "choices": ["Mean", "Median", "Mode", "All of the above"],
+    "correctAnswer": 0
+}, {
+    "question": "The ..... is often the preferred measure of central tendency if the data are severely skewed",
+    "choices": ["Mean", "Median", "Mode", "Range"],
+    "correctAnswer": 1
+}, {
+    "question": "Which of the following is the formula for range?",
+    "choices": ["H + L", "L x H", "L \u2013 H", "H \u2013 L"],
+    "correctAnswer": 3
+}, {
+    "question": "..... are used when you want to visually examine the relationship between two quantitative variables.",
+    "choices": ["Bar graphs", "a Pie graphs", "a Line graphs", "a Scatterplots"],
+    "correctAnswer": 2
+}, {
+    "question": "As a general rule, the is the best measure of central tendencybecause it is more precise",
+    "choices": ["Mean", "Median", "Mode", "Range"],
+    "correctAnswer": 0
+}, {
+    "question": "The most frequently occurring number in a set of values is called the .....",
+    "choices": ["Mean", "Median", "Mode", "Range"],
+    "correctAnswer": 2
+}, {
+    "question": ". A rectangular box with a square base and no top has a volume of 500 cm, the dimensions of the box that require the least amount of material are",
+    "choices": ["10x10x5cm", "4x5x25cm", "50x5x2cm", "25x10x2"],
+    "correctAnswer": 1
+}, {
+    "question": "The roof of a shelter is made from a piece of corrugated iron 2.3m long inclined at 18\u00ba to the horizontal. How far from the wall does the roof stick out?",
+    "choices": ["0.7m", "2.2m", "1.1m", "1.2m"],
+    "correctAnswer": 0
+}, {
+    "question": "A ladder 20m long rests against a vertical wall so that the foot of the ladder 9m from the wall. The height correct to 1 decimal place above the ground at which the upper end of the ladder touches the wall is",
+    "choices": ["19.7m", "18.1m", "18.7m", "17.9m"],
+    "correctAnswer": 3
+}, {
+    "question": "A chord 6.6m long is 5.6m from the centre of a circle. The radius of the circle is",
+    "choices": ["3.2m", "6.3m", "6.5m", "1.6m"],
+    "correctAnswer": 2
+}, {
+    "question": "The heights in cm, of 10 children are 145, 163, 159, 162, 167, 149, 150, 160, 170, and 155. The mean height of the children is",
+    "choices": ["156cm", "158cm", "160cm", "162cm"],
+    "correctAnswer": 1
+}, {
+    "question": "T The heights in cm, of 10 children are 145, 163, 159, 162, 167, 149, 150, 160, 170, and 155. The standard deviation of the heights of the children is ",
+    "choices": ["5.5cm", "5.7cm", "6.5cm", "7.7cm"],
+    "correctAnswer": 3
+}, {
+    "question": "A class of all possible subsets of space S is called",
+    "choices": ["Universal set", "alpha - field", "sample space", "probability space"],
+    "correctAnswer": 0
+}, {
+    "question": "One of these is a demerit of a sample",
+    "choices": ["It is cheaper to enumerate a sample", "It is faster to survey a sample", "Results obtained from sample are oftentimes as informative as those from a censor", "None of the above"],
+    "correctAnswer": 3
+}, {
+    "question": "One of these is not a desirable feature of a good statistical table",
+    "choices": ["A table must reveal salient features of data", "A table must clearly communicate information in a neat and concise form", "A table must be self sufficient", "A table must be self explanatory"],
+    "correctAnswer": 2
+}, {
+    "question": "Which of these is a measure of location",
+    "choices": ["Mean", "Standard deviation", "Variance", "All of the above"],
+    "correctAnswer": 0
+}, {
+    "question": "Statistics is a set of tools whose proper use will \u2026\u2026.. the decision maker",
+    "choices": ["Completely fill the needs of", "Encumber", "Aid", "Confuse"],
+    "correctAnswer": 2
+}, {
+    "question": "The graph of cumulative frequency distribution is called",
+    "choices": ["Frequency polygon", "Frequency distribution curve", "Frequency curve", "Ogive"],
+    "correctAnswer": 3
+}, {
+    "question": "A \u2026\u2026\u2026 variation is one whose values convey the concept of attribute rather than number",
+    "choices": ["Quantitative", "Qualitative", "Discrete", "Continuous"],
+    "correctAnswer": 1
+}, {
+    "question": "A company employs 100 people, 65 of whom are men. 60 people including all the women are paid weekly. The number of the men that are paid weekly is",
+    "choices": ["35", "40", "25", "30"],
+    "correctAnswer": 2
+}, {
+    "question": "In a survey of villagers, it is found that 20% of the people have visited Kano and 25% have visited Port Harcourt. If 5% have been to both cities, then the percentage that have visited neither Kano nor Port Harcourt is",
+    "choices": ["75%", "65%", " 50%", "60%"],
+    "correctAnswer": 3
+}, {
+    "question": "The length of a rectangle is three times its width. If the perimeter is 72 cm,the width of the rectangle is",
+    "choices": ["6cm", "8cm", "9cm", "10cm"],
+    "correctAnswer": 2
+}, {
+    "question": "A frustum of a pyramid is 3cm square at the top and 6cm square at the bottom and is 5cm high. The volume in cm3 of the frustum is",
+    "choices": ["15", "150", "105", "115"],
+    "correctAnswer": 2
+}, {
+    "question": "If x = 2, then (x - 1)(2x - 3) =",
+    "choices": ["1", "3", "-1", "0"],
+    "correctAnswer": 0
+}, {
+    "question": "What is sin30 ?",
+    "choices": [" \u00bd", " 3\/2", " 0.866", "1"],
+    "correctAnswer": 0
+}, {
+    "question": " Given the list of numbers array(1, 6, 3, 9, 16, 11, 2, 9, 5, 7, 12, 13, 8), what is the median?",
+    "choices": ["7", "8", "9", "11"],
+    "correctAnswer": 1
+}, {
+    "question": "What is the slope of the line that is perpendicular to y - 2x = 1?",
+    "choices": ["2", "-2", "\u00bd", "-\u00bd"],
+    "correctAnswer": 3
+}, {
+    "question": "What is the sum of the first 40 even positive integers? ",
+    "choices": ["1,600", "1,560", "820 ", "1,640"],
+    "correctAnswer": 3
+}, {
+    "question": "What is the length of an arc of a circle with a radius of 5 if it subtends an angle of 60\u00b0 at the center?",
+    "choices": ["3.14", "5.24", "10.48", " 2.62"],
+    "correctAnswer": 1
+}, {
+    "question": "(1.28 x 10\u2074) \u00f7 (6.4 x 10\u00b2) equals",
+    "choices": ["2 x 10\u207b\u2075", " 2 x 10\u207b\u00b9", "2 x 10\u2070", "2 x 10\u00b9"],
+    "correctAnswer": 3
+}, {
+    "question": "A man and wife went to buy an article costing N400. The woman had 10% of the cost and the man 40% of the remainder. How much did they have altogether?",
+    "choices": ["N216", " N200", "N184", " N144"],
+    "correctAnswer": 2
+}, {
+    "question": "Add the same number to the numerator and denominator of 3\/18. If the resulting fraction is \u00bd, then the number added is",
+    "choices": ["13", " 14", "15", "12"],
+    "correctAnswer": 3
+}, {
+    "question": "After getting a rise of 15%, a man\u2019s new monthly salary is N345. How much per month did he earn before the increase?",
+    "choices": ["N330 ", " N396.75", "N300", "N293.25"],
+    "correctAnswer": 2
+}, {
+    "question": "Assuming log\u2091 4.4 = 1.4816 and log\u2091 7.7 = 2.0142, then the value of log\u2091 \u00bc is",
+    "choices": ["0.5326", "3.4958", "0.4816", "0.0142"],
+    "correctAnswer": 0
+}, {
+    "question": "Evaluate correct to 4 decimal places 827.51 x 0.015.",
+    "choices": [" 8.8415", "12.4127", "124.1265", " 12.4120"],
+    "correctAnswer": 1
+}, {
+    "question": "Express 130 kilometres per second in metres per hour",
+    "choices": [" 7.8 x 10\u2075", " 468 x 10\u2076", "7800000", "4.68 x 10\u2076"],
+    "correctAnswer": 1
+}, {
+    "question": "Find the square root of 170-20\u221a30 ",
+    "choices": [" 2\u221a10-5\u221a3 ", "3\u221a5-8\u221a6", "2\u221a5-5\u221a6", " 5\u221a5-2\u221a6"],
+    "correctAnswer": 2
+}, {
+    "question": "If (25)\u02e3\u207b\u00b9 = 64(5\u20442)\u2076 , then x has the value",
+    "choices": ["7", "4", "32", "64"],
+    "correctAnswer": 1
+}, {
+    "question": "If a circular paper disc is trimmed in such a way that its circumference is reduced in the ratio 2:5, in what ratio is the surface area reduced?",
+    "choices": ["8:125 ", " 2:5", "8:25", "4:25"],
+    "correctAnswer": 3
+}, {
+    "question": "In base ten, the number 101101 (base 2) equals",
+    "choices": ["15", "4", "45", "32"],
+    "correctAnswer": 2
+}, {
+    "question": "Simplify (5\u02e3 x 25\u02e3\u207b\u00b9)\/(125\u02e3\u207a\u00b9)",
+    "choices": ["5\u00b2\u02e3\u207b\u00b9", "5\u02e3\u207b\u00b9", "5\u02e3\u207b\u00b9", "5\u02e3\u207b\u00b9"],
+    "correctAnswer": 2
+}, {
+    "question": "Simplify 2 5\/12 - 1 7\/8 x 6\/5",
+    "choices": ["1\/6", "13\/20", "11\/30", "9\/4"],
+    "correctAnswer": 0
+}, {
+    "question": "Solve the system of equations: 2\u02e3\u207a\u02b8 = 32, 3\u00b3\u02b8\u207b\u02e3 = 27 ",
+    "choices": ["(3,2)", "(-3,2)", "3,-2", "-3,-2"],
+    "correctAnswer": 0
+}, {
+    "question": "The annual profits of a transport business were divided between the two partners A and B in the ratio 3:5. If B receives N3,000 more than A, the total profit was:",
+    "choices": ["N5,000", "N1,800 ", "N12,000", "N24,000"],
+    "correctAnswer": 2
+}, {
+    "question": "The diameter of a metal rod is measured as 23.40cm to four significant figures. What is the maximum error in the measurement?",
+    "choices": ["0.05cm", "0.5cm", " 0.045cm", " 0.005cm"],
+    "correctAnswer": 3
+}, {
+    "question": "The ratio of the price of a loaf of bread to the price of a packet of sugar in 1975 was r :t, in 1980 the price of a loaf went up by 25% and that of a packet of sugar by 10%. Their new ratio is now",
+    "choices": ["40r:50t", "44r:50t", "50r:44t", "55r:44t"],
+    "correctAnswer": 2
+}, {
+    "question": "The sum of 3 7\/8 and 1 1\/3 is less than the difference between 3\/8 and 1 2\/3 by",
+    "choices": ["3 2\/3", "5 1\/4", "6 1\/2", "0"],
+    "correctAnswer": 2
+}, {
+    "question": "Two distinct sectors in the same circle subtend 1000 and 300 respectively at the centre of the circle. Their corresponding arcs are in the ratio",
+    "choices": ["1:100", "3:1", "5:2", "10:3"],
+    "correctAnswer": 3
+}, {
+    "question": "What is log\u2087(49\u1d43) - log\u2081\u2080(0.001)?",
+    "choices": ["49a\/100 ", "a\/2 + 2", "7\u00b2\u1d43 + 2", "2a + 2"],
+    "correctAnswer": 3
+}, {
+    "question": "What is the number whose logarithm to base 10 is .3482?",
+    "choices": ["223.6", "0.2228", "2.235", "0.02229"],
+    "correctAnswer": 3
+}, {
+    "question": "When a dealer sells a bicycle for N81 he makes a profit of 8%. What did he pay for the bicycle?",
+    "choices": ["N73", " N74.52", "N75", " N75.52"],
+    "correctAnswer": 2
+}, {
+    "question": "Write the decimal number 39 to base 2",
+    "choices": ["100111", "110111", "111001", "100101"],
+    "correctAnswer": 0
+}, {
+    "question": "A father is now three times as old as his son. Twelve years ago, he was six times as old as his son. How old are the son and the father?",
+    "choices": ["20 and 45", "100 and 150 ", "45 and 65", "20 and 60"],
+    "correctAnswer": 3
+}, {
+    "question": "A steel ball of radius 1cm is dropped into a cylinder of radius 2cm and height 4cm. If the cylinder is now filled with water, what is the volume of the water in the cylinder?",
+    "choices": ["44\/3 \u03c0cm\u00b3", "12 \u03c0cm\u00b3", "38\/3\u03c0cm\u00b3", "40\/3\u03c0cm\u00b3"],
+    "correctAnswer": 0
+}, {
+    "question": "Find a two-digit number such that three times the tens digit is 2 less than twice the units digit, and twice the number is 20 greater than the number obtained by reversing the digits.",
+    "choices": ["24", "42", "74", "47"],
+    "correctAnswer": 3
+}, {
+    "question": "Find the roots of the equation 10x\u00b2 \u2212 13x \u22123 = 0",
+    "choices": ["x = 3\/5 or \u2013\u00bd ", "x = 3\/10 or -1", "x = -3\/10 or 1", " x = -1\/5 or 3\/2"],
+    "correctAnswer": 3
+}, {
+    "question": "If a function is defined by f(x+1)=3x\u00b2-x+4, find f(0).",
+    "choices": ["4", "6", "0", "8"],
+    "correctAnswer": 3
+}, {
+    "question": "If sin x equals cosine x, what is x in radians?",
+    "choices": ["\u03c0\/2 ", "\u03c0\/3", "\u03c0\/4", "\u03c0\/6"],
+    "correctAnswer": 2
+}, {
+    "question": "If x\u00b2 + 4 = 0, then x =",
+    "choices": ["4", "-4", "2", "none of these"],
+    "correctAnswer": 3
+}, {
+    "question": "In a geometric progression, the first term is 153 and the sixth term is 17\/27, the sum of the first four terms is",
+    "choices": ["860\/3", "680\/3", "608\/3", "806\/3"],
+    "correctAnswer": 1
+}, {
+    "question": "List all integer values of x satisfying the inequality \u22121 < 2x -5 \u2264 5",
+    "choices": ["2,3,4,5 ", "2,5 ", " 3,4,5", "2,3,4"],
+    "correctAnswer": 2
+}, {
+    "question": "Make c the subject of the equation a(b+c) + 5\/d - 2 = 0",
+    "choices": ["c = 2d - 5 - b\/ad", " c = 5 - 2d - b\/ad", "c = 5 - 2d -abd\/ad", "c = 2d - 5 - abd\/ad"],
+    "correctAnswer": 3
+}, {
+    "question": "Multiply (3x + 5y + 4z) by (2x - 3y + z)",
+    "choices": ["6x\u00b2 +xy -15y\u00b2 + 4z\u00b2 + 11xz - 7yz", "6x\u00b2 +3xy -15y\u00b2 + 4z\u00b2 + 11xy - 5yz", "6x\u00b2 +3xy -15y\u00b2 + 4z\u00b2 + 13xz - 8yz", " 6x\u00b2 +5xy -15y\u00b2 + 4z\u00b2 + 13xz + 6yz"],
+    "correctAnswer": 0
+}, {
+    "question": "Multiply (x+3y+5) by (2x\u00b2 + 5y + 2)",
+    "choices": ["2x\u00b3 + 3yx\u00b2 +10xy+15y\u00b2+13y+10x\u00b2+2x+10", "2x\u00b3 + 6yx\u00b2 +5xy+15y\u00b2+31y+10x\u00b2+2x+10", "2x\u00b3 + 3yx\u00b2 +5xy+10y\u00b2+13y+5x\u00b2+2x+10", "2x\u00b3 + 6yx\u00b2 +5xy+15y\u00b2+13y+10x\u00b2+2x+10"],
+    "correctAnswer": 1
+}, {
+    "question": "Multiply x\u00b2 + x + 1 by x\u00b2 - x + 1",
+    "choices": ["x\u2074 + 3x\u00b2 + x + 1", "x\u2074 + x\u00b2 + 1", "x\u2074 + 4x\u00b2 - 6x + 1", "x\u2074 - 6x\u00b2 + 4x + 1"],
+    "correctAnswer": 1
+}, {
+    "question": "The factors of 6x - 5 - 5x\u00b2",
+    "choices": ["-(x+3)(x+2)", "(x-5)(x-1)", "-(x+5)(x+1)", "(x-5)(1-x)"],
+    "correctAnswer": 3
+}, {
+    "question": "The quantity (x + y) is a factor of ",
+    "choices": [" x\u00b2+y\u00b2", "x\u00b3-y\u00b3", "2x\u00b2-3xy+y\u00b2-x+1", "2x\u00b3+2x\u00b2y-xy+3x-y\u00b2+3y"],
+    "correctAnswer": 3
+}, {
+    "question": "The set of values of x and y which satisfies the equations x\u00b2 - y - 1 = 0 and y \u2013 2x + 2 = 0",
+    "choices": ["1,0", "1,1", "2,2", " 0,2"],
+    "correctAnswer": 0
+}, {
+    "question": "The solution of the equation x\u00b2-2x=8",
+    "choices": ["x = 0 or 2", "x = -2 or 4", "x = 2", "x = -4"],
+    "correctAnswer": 1
+}, {
+    "question": "The sum of the root of a quadratic equation is 5\/2 and the product of its roots is 4. The quadratic equation is",
+    "choices": ["2x\u00b2+5x+8=0", "2x\u00b2-5x+8=0", "2x\u00b2-8x+5=0", "2x\u00b2+8x-5=0"],
+    "correctAnswer": 1
+}, {
+    "question": "Three numbers x, y and z are connected by the relationships y = 4\/9 x + 1 and z = 4\/9 y + 1 if x = 99, find z.",
+    "choices": ["6 1\/3", "20", "21", "176 4\/9"],
+    "correctAnswer": 2
+}, {
+    "question": "What factor is common to all the expressions: x\u00b2 -x, 2x\u00b2+x-1 and x\u00b2-1",
+    "choices": ["x", "x-1", "x+1", "No common factor"],
+    "correctAnswer": 3
+}, {
+    "question": "A canal has rectangular cross section of width 10cm and breadth 1m. If water of uniform density 1 gm\/cm\u00b3 flows through it at a constant speed of 1000mm per minute, the adjacent sea is",
+    "choices": ["100,000", "1,000,000", "120,000", "30,000"],
+    "correctAnswer": 0
+}, {
+    "question": "A cuboid has a diagonal of length 9cm and a square base of side 4cm. What is its height?",
+    "choices": ["9cm", "\u221a65", "4\u221a2cm", "7cm"],
+    "correctAnswer": 1
+}, {
+    "question": "A cylinder of height h and radius r is open at one end. Its surface area is",
+    "choices": ["2\u03c0rh ", "\u03c0r\u00b2h ", "2\u03c0rh + 2\u03c0r\u00b2", "2\u03c0rh + \u03c0r\u00b2"],
+    "correctAnswer": 3
+}, {
+    "question": "A pyramid is constructed on a cuboid. The figure has",
+    "choices": ["12 faces", "13 vertices", "14 edges", "16 edges "],
+    "correctAnswer": 3
+}, {
+    "question": "A quadrant of a circle of radius 6cm is cut away from each corner of a rectangle 25cm long and 18cm wide. Find the perimeter of the remaining figure",
+    "choices": ["38cm", "(38 + 12\u03c0)cm", "(86-12\u03c0)cm", "(86-6\u03c0)cm"],
+    "correctAnswer": 2
+}, {
+    "question": "A rectangular picture 6cm by 8cm is enclosed by a frame \u00bdcm wide. Calculate the area of the frame",
+    "choices": ["15sq.cm", "20sq.cm", "13sq.cm", "16sq.cm"],
+    "correctAnswer": 0
+}, {
+    "question": "A regular hexagon is constructed inside a circle of diameter 12cm. The area of the hexagon is",
+    "choices": ["36\u03c0cm\u00b2", "36\/\u03c0cm\u00b2", "54\u221a3\u03c0cm\u00b2", "54\/\u221a3\u03c0cm\u00b2"],
+    "correctAnswer": 2
+}, {
+    "question": "A solid cylinder of radius 3cm has a total surface area of 36\u03c0cm\u00b2. Find its height",
+    "choices": ["2cm", "3cm", "4cm", "5cm"],
+    "correctAnswer": 1
+}, {
+    "question": "A square of cardboard is taped at the perimeter by a piece of ribbon 20cm long. What is the area of the board?",
+    "choices": ["20sq.cm", "25sq.cm", "36sq.cm", "100sq.cm"],
+    "correctAnswer": 1
+}, {
+    "question": "A triangle has angles 30\u2070, 15\u2070 and 135\u2070 , the side opposite to the angle 30\u2070 is length 6cm. The side opposite to the angle 135\u2070 is equal to",
+    "choices": ["12cm", "6cm", "6\u221a2cm", " 12\u221a2cm"],
+    "correctAnswer": 2
+}, {
+    "question": "An isosceles triangle of sides 13cm, 13cm, 10cm is inscribed in a circle. What is the radius of the circle?",
+    "choices": ["7 1\/24cm", "12cm", "8cm", "7cm"],
+    "correctAnswer": 0
+}, {
+    "question": "Find the area of the curved surface of a cone whose base radius is 6cm and whose height is 8cm (Take \u03c0 = 22\/7).",
+    "choices": [" 188.57cm\u00b2", "1320cm\u00b2", "188cm\u00b2", "188.08cm\u00b2"],
+    "correctAnswer": 0
+}, {
+    "question": "Find the total surface area of a solid cone of radius 2\u221a3cm and slanting side 4\u221a3cm.",
+    "choices": ["8\u221a3\u03c0cm\u00b3", "24\u03c0cm\u00b3", "15\u221a3\u03c0cm\u00b3", "36\u03c0cm\u00b3"],
+    "correctAnswer": 3
+}, {
+    "question": "If the four interior angles of a quadrilateral are (p+10)\u2070,(p-30)\u2070,(2p-45)\u2070 and (p+15)\u2070, then p is ",
+    "choices": ["125", "82\u2070", "135\u2070", "105"],
+    "correctAnswer": 1
+}, {
+    "question": "If the hypotenuse of a right angled isosceles triangle is 2, what is the length of each of the other sides?",
+    "choices": ["\u221a2", "1\/\u221a2", "2\/\u221a2", "1"],
+    "correctAnswer": 0
+}, {
+    "question": "If the value of \u03c0 is taken to be 22\/7, the area of a semicircle of diameter 42m is ",
+    "choices": ["5544m\u00b2", "1386m\u00b2", "132m\u00b2", "693m\u00b2"],
+    "correctAnswer": 3
+}, {
+    "question": "In a circle of radius 10cm, a cord of length 10cm is xcm from its centre where x is",
+    "choices": ["10\u221a2", "5\u221a3", "10\u221a3", "5\u221a2"],
+    "correctAnswer": 1
+}, {
+    "question": "PQRS is a cyclic quadrilateral with PQ as diameter of the circle. If angle PQS = 15\u2070, find angle QRS",
+    "choices": ["75\u2070", "37 1\/2\u2070", " 127 1\/2\u2070", "105\u2070"],
+    "correctAnswer": 3
+}, {
+    "question": "The difference between the length and width of a rectangle is 6cm and the area is 135cm\u00b2. What is the length?",
+    "choices": ["25cm", "18cm", "15cm", " 24cm"],
+    "correctAnswer": 2
+}, {
+    "question": "At what value of x does the function y= -3 \u2013 2x +x\u00b2 attain a minimum value?",
+    "choices": ["4", "2", "-1", "1"],
+    "correctAnswer": 3
+}, {
+    "question": "Evaluate \u222b\u00b3\u2082(x\u00b2-2x)dx",
+    "choices": ["4", "2", "4\/3", "1\/3"],
+    "correctAnswer": 2
+}, {
+    "question": "Find the derivative of y=sin(2x\u00b2+3x-4)",
+    "choices": ["-cos(2x\u00b3+3x-4)", "-(6x\u00b2+3)cos(2x\u00b3+3x-4)", "cos(2x\u00b3+3x-4)", "(6x\u00b2+3)cos(2x\u00b3+3x-4)"],
+    "correctAnswer": 3
+}, {
+    "question": "If dy\/dx =x+cosx, find y",
+    "choices": ["x\u00b2\/2 - sinx + c", "x\u00b2 -sinx + c", "x\u00b2\/2 + sinx + c", "x\u00b2 + sinx + c"],
+    "correctAnswer": 2
+}, {
+    "question": "If the maximum value of y = 1 + hx - 3x\u00b2 is 13, find h.",
+    "choices": ["13 ", "12 ", "11", "10"],
+    "correctAnswer": 1
+}, {
+    "question": "If s = (2 + 3t)(5t-4), find ds\/dt when t = 4\/5 sec",
+    "choices": [" 0 unit per sec.", "15 units per sec.", "22 units per sec.", "26 units per sec."],
+    "correctAnswer": 2
+}, {
+    "question": "If y = (1 - 2x)\u00b3, find the value of dy\/dx at x = -1",
+    "choices": ["-6", "57", "-54", "27"],
+    "correctAnswer": 2
+}, {
+    "question": "If y = 3cos4x, dy\/dx equals",
+    "choices": ["6sin8x", "-24sin4x", "12sin4x", "-12sin4x"],
+    "correctAnswer": 3
+}, {
+    "question": "Integrate (1-x)\/x\u00b3 with respect to x",
+    "choices": ["(x-x\u00b2)\/x\u2074 + k", "4\/x\u2074 - 3\/x\u00b3 + k", "1\/x + 1\/2x\u00b2 + k", "1\/x - 1\/2x\u00b2 + k"],
+    "correctAnswer": 3
+}, {
+    "question": "The derivative of cosec x is",
+    "choices": ["tanx cosec x", "\u2013cot x cosec x", "tan x sec x", "\u2013cot x sec x"],
+    "correctAnswer": 1
+}, {
+    "question": "The minimum value of y in the equation y = x\u00b2 - 6x + 8",
+    "choices": ["8", "3", "0", "-1"],
+    "correctAnswer": 3
+}, {
+    "question": "The slope of the tangent to the curve y = 2x\u00b2 - 2x + 5 at the point (1, 6) is",
+    "choices": ["4", "1", "6", "5"],
+    "correctAnswer": 2
+}, {
+    "question": "Two variables x and y are such that dy\/dx = 4x - 3 and y = 5 when x = 2. Find y in terms of x",
+    "choices": ["2x\u00b2 - 3x + 5", "2x\u00b2 - 3x + 3", "2x\u00b2 - 3x", "4"],
+    "correctAnswer": 1
+}, {
+    "question": "7 pupils of average age 12 years leave a class of 25 pupils of average age 14 years. If 6 new pupils of average age 11 years join the class, what is the average age of the pupils now in the class?",
+    "choices": [" 13years", "12years 7\u00bdmonths", "13years 5months", "13years 10 months"],
+    "correctAnswer": 0
+}, {
+    "question": "A bag contains 4 white balls and 6 red balls. Two balls are taken from the bag without replacement. What is the probability that they are both red?",
+    "choices": ["1\/3", "2\/9", "2\/15", "3\/5"],
+    "correctAnswer": 3
+}, {
+    "question": "Bola chooses at random a number between 1 and 300. What is the probability that the number is divisible by 4?",
+    "choices": ["1\/3", "1\/4", "1\/5", "4\/300"],
+    "correctAnswer": 1
+}, {
+    "question": "Find the mean deviation of 1, 2, 3 and 4.",
+    "choices": ["2.5", "2.0", "1.0", "1.5"],
+    "correctAnswer": 2
+}, {
+    "question": "If M represents the median and D the mode of the measurements 5, 9, 3, 5, 7, 5, 8, then (M, D) is",
+    "choices": ["(6,5)", "(5,8)", "(5,7)", "(5,5)"],
+    "correctAnswer": 3
+}, {
+    "question": "In a basket of fruits, there are 6 grapes, 11 bananas and 13 oranges. If one fruit is chosen at random, what is the probability that the fruit is either a grape or a banana?",
+    "choices": ["17\/30", "11\/30", "6\/30", "5\/30"],
+    "correctAnswer": 0
+}, {
+    "question": "In a school, 220 students offer Biology or Mathematics or both, 125 offer Biology and 110 Mathematics. How many offer Biology but not Mathematics?",
+    "choices": ["95", "80", "125", "110"],
+    "correctAnswer": 3
+}, {
+    "question": "In a school, there are 35 students in Class 2A and 40 in class 2B. The mean score for class 2A in an English literature examination is 60.0 and that for 2B in the same paper is 52.5. Find to one place of decimals, the mean for the combined classes.",
+    "choices": ["1.5", "56.0", "56.2", "56.3"],
+    "correctAnswer": 1
+}, {
+    "question": "In a soccer competition in one season, a club had scored the following goals: 2, 0, 3, 3, 2, 1, 4, 0, 0, 5, 1, 0, 2, 2, 1, 3, 1, 4 and 1. The mean, median and mode are respectively",
+    "choices": ["1,1.8,1.5", "1.8,1.5 and 1", "1.8,1 and 1.5", "1.5,1 and 1.8"],
+    "correctAnswer": 1
+}, {
+    "question": "In how many ways can 2 students be selected from a group of 5 students in a debating competition?",
+    "choices": ["25 ways", "10 ways", "15 ways", "20 ways"],
+    "correctAnswer": 3
+}, {
+    "question": "The arithmetic mean of the ages of 30 pupils in a class is 15.3 years. One boy leaves the class and one girl is enrolled, and the new average age of 30 pupils in the class becomes 15.2 years. How much older is the boy than the girl? ",
+    "choices": ["30 years", "6 years", "9 years", "3 years"],
+    "correctAnswer": 3
+}, {
+    "question": "The letters of the word \u201cMATRICULATION\u201d are cut and put into a box. One letter is drawn at random from the box. Find the probability of drawing a vowel",
+    "choices": ["7\/13", "5\/13", "6\/13", "8\/13"],
+    "correctAnswer": 2
+}, {
+    "question": "The mean of the numbers 3, 6, 4, x and 7 is 5. Find the standard deviation",
+    "choices": ["\u221a2 ", "\u221a3", "2", "3"],
+    "correctAnswer": 0
+}, {
+    "question": "The weights of 30 new-born babies are given as follows: 6, 9, 5, 7, 6, 7, 5, 8, 9, 5, 7, 5, 8, 7, 8, 7, 5,6, 5, 7, 6, 9, 9, 7, 8, 8, 7, 8, 9, 8. The mode is",
+    "choices": ["6", "5", "8", "7"],
+    "correctAnswer": 3
+}, {
+    "question": "Thirty boys and x girls sat for a test. The mean of the boys\u2019 scores and that of the girls were respectively 6 and 8. Find x if the total score was 468.",
+    "choices": ["38", "24", "36", "22"],
+    "correctAnswer": 2
+}, {
+    "question": "Two fair dice are rolled. What is the probability that both show up the same number of points?.",
+    "choices": ["1\/36", "7\/36", "1\/2", "1\/3"],
+    "correctAnswer": 3
+}, {
+    "question": "Find the principal which amount to N4,400 simple interest in 5years at 2% per annum",
+    "choices": ["N3,800", "N5,200", "N5,000", "N44,000"],
+    "correctAnswer": 3
+}, {
+    "question": "The sum of the first 20th term of the progression 3,6,12,.... is",
+    "choices": ["3(2\u00b2\u00b9\u20131)", "3(2\u00b2\u2070\u20131)", "3(2\u00b2\u2070+1)", "3(2\u00b2\u00b9+1)"],
+    "correctAnswer": 1
+}, {
+    "question": "Mr.Tommy bought bags of orange for N2,500 each. He sold them for N90,000 at a loss of 20%. How many bags of orange did he buy?",
+    "choices": ["60", "80", "50", "45"],
+    "correctAnswer": 3
+}, {
+    "question": "The second and fifth term of a geometric progression are 21 and 567 respectively find the first term and the common ratio of the progression. ",
+    "choices": ["3,7", "7,3", "-7,3", "-3,7"],
+    "correctAnswer": 1
+}, {
+    "question": "Tunse bought a house for N1,250,000 and spent N350,000.00 to renovate it. He then sold the house for N2,000,000.00.What is the percentage gain?",
+    "choices": ["40%", "65%", "25%", "20%"],
+    "correctAnswer": 2
+}, {
+    "question": "List the integral which satisfy the inequality -2< 7\u20133x\u226410",
+    "choices": ["-1,0,1,2", "-2,0,1", " 1,2,3", "0,1,2"],
+    "correctAnswer": 0
+}, {
+    "question": " In a class, 120 students Speak English or French or both, 70 speak English and 55 speak French. How many speak English but not French?",
+    "choices": ["45", "50", "65", "60"],
+    "correctAnswer": 2
+}, {
+    "question": "The length of the sides of a right angled triangle are ym,(3y-1)m, and (3y+1)m. Find y.",
+    "choices": ["12", "9", "8", "4"],
+    "correctAnswer": 0
+}, {
+    "question": "Maydee, Femi and Ade share a profit on a business deal. Maydee received 1\/3 of the profit and Femi received 2\/3 of the remainder. If Ade received the remaining N12,000, how much profit did they share?",
+    "choices": ["N54,000", "N58,000", "N48,000", "N72,000"],
+    "correctAnswer": 0
+}, {
+    "question": "A ladder resting on a vertical wall makes an angle whose tangent is 2.5 with the ground. If the distance between the foot of the ladder and the wall is 60cm, what is the length of the ladder?",
+    "choices": ["2m", "1.6m", "0.8m", "3m"],
+    "correctAnswer": 1
+}, {
+    "question": "Three student share abag of garri in such away that the first student takes \u00bc of the garri and the second takes 3\/4 of the remainder. What fraction of the bag of garri did the third student take?",
+    "choices": ["3\/16", "2\/9", "1\/2", "4\/5"],
+    "correctAnswer": 0
+}, {
+    "question": "Solve the simultaneous linear equation 2x+5y=11, 7x+4y=2",
+    "choices": ["27\/34,34\/27", "-34\/27,73\/27", "2\/3,4\/3", "1\/3,2\/3"],
+    "correctAnswer": 1
+}, {
+    "question": "If x+1 is a factor of x\u00b3+3x\u00b2+kx+4. Find the value of K.",
+    "choices": ["6", "4", "-4", "3"],
+    "correctAnswer": 0
+}, {
+    "question": "Toyin and his friend, Ibrahim went to buy an article costing N600.Ibrahim had 10% of the cost and Toyin 40% of the remainder. How much did they have altogether?",
+    "choices": ["N320", "N440", " N276", "N196"],
+    "correctAnswer": 2
+}, {
+    "question": "Find all values of x satisfying the inequality -14\u22644\u20133x\u226431",
+    "choices": ["-6\u2264x\u22649", "-9\u2264x\u22646", "5\u2264x\u22648", "6\u2264x\u226412"],
+    "correctAnswer": 1
+}, {
+    "question": "What factor is common to all the expressions x\u00b2\u2013x, 2x\u00b2\u2013x-1 and x\u00b2\u20131 ",
+    "choices": ["(2x\u20131)", "(x+1)", "x\u20131", "(2x\u20133)"],
+    "correctAnswer": 2
+}, {
+    "question": "Find the sum to infinity of the following series 2 + 4\/3 + 8\/9 + 16\/27 + ..",
+    "choices": ["270", "6", "27", "90"],
+    "correctAnswer": 1
+}, {
+    "question": "Find the number of sides of regular polygon whose interior angle is twice the exterior angle",
+    "choices": ["5", "6", "8", "9"],
+    "correctAnswer": 1
+}, {
+    "question": "Find the value of p, if the line which passes through (-1,p) and (-2p,2) is parallel to the line 2y+8x\u201317=0",
+    "choices": ["6\/7", "4\/7", "1\/5", "-6\/7"],
+    "correctAnswer": 0
+}, {
+    "question": "Obtain a maximum value of the function f(x) = x\u00b3 \u201312x+11",
+    "choices": ["-15", "27", "15", "20"],
+    "correctAnswer": 1
+}, {
+    "question": "If y = 5cos(-6x), dx\/dy is",
+    "choices": ["30sin(-6x)", "5sin(-6x)", "-30sin(-6x)", "-30cos(-6x)"],
+    "correctAnswer": 0
+}, {
+    "question": "Find the variance of the numbers k,k+1,k+2",
+    "choices": ["1\/3", "3", "2\/3", "1"],
+    "correctAnswer": 2
+}, {
+    "question": "At what value of x is the function y = x\u00b2 \u2013 6x \u2013 7 minimum",
+    "choices": ["3", "5", "6", "2"],
+    "correctAnswer": 0
+}, {
+    "question": "The chances of three independent P, Q, R occurring are \u00bd, 2\/3, \u00bc respectively. What is the chance of P and Q only occurring?",
+    "choices": ["\u00bc", "2\/3", "2\/9", "\u00bd"],
+    "correctAnswer": 0
+}, {
+    "question": "If x and y represent the mean and the median respectively of the following marks of students in a mathematics test 11, 12, 13, 14, 14, 15, 16, 17, 18, 19, 21. Find x\/y correct to 1 decimal place",
+    "choices": ["1", "2", "5", "2"],
+    "correctAnswer": 0
+}, {
+    "question": "Find the point of the Euclidean plane where the curve y=2x\u00b2\u20132x+9 has 2 as gradient",
+    "choices": ["(2,4)", "(3,5)", ".(1,3)", "(1,4)"],
+    "correctAnswer": 2
+}, {
+    "question": "Find the equation of the line through (5,7) parallel to the line 7x+5y\u20135=0",
+    "choices": ["5y+7x=70", "7x+5y=7", "5y+7x=110", "y+5x=7"],
+    "correctAnswer": 0
+}, {
+    "question": "AAUA allocations to various faculties in school budgets are as follows: Science N35,000,000.00, Education \u20a625,000,000.00, Law \u20a620,000,000.00, Social and Management \u20a620,000,000.00. In a pie chart to represent this information,the corresponding angle to Science is",
+    "choices": ["90\u2070", "126\u2070", "45\u2070", "100\u2070"],
+    "correctAnswer": 1
+}, {
+    "question": "Simplify 3 1\/3 \u2013 \u00bc x 2\/3 + 2\/5",
+    "choices": ["7\/30", "3 9\/10", "3 2\/5", "33 1\/3"],
+    "correctAnswer": 1
+}, {
+    "question": "Find the distance between points A(-4,5) and B(-3,2)",
+    "choices": ["10", "2\u221a5", "3", "\u221a10"],
+    "correctAnswer": 3
+}, {
+    "question": "Find the mode and median respectively of the distribution 1,2,5,1,6,8,3,1,1,9,7,4,2,5,3",
+    "choices": ["3,1", "1,2", "1,3", "1,1"],
+    "correctAnswer": 2
+}, {
+    "question": "Rationalise (4\u221a7+ \u221a2) \/ (\u221a2-\u221a7)",
+    "choices": ["-\u221a14-6", "2\u221a14-6", "-3\u221a14-28", "\u221a14-28"],
+    "correctAnswer": 0
+}, {
+    "question": "A house wife bought five yams at Y34 per yam and three oranges at Y5 each where Yis the currency reckoned in base six. The total amount spent by the house wife is",
+    "choices": ["Y225\u2086", "Y252\u2086", "Y315\u2086", "Y325\u2086"],
+    "correctAnswer": 3
+}, {
+    "question": "Justice Starts a 5km walk from P on a bearing 023\u2070. He then walks 4km on a bearing of 113\u2070 to Q. What is the bearing of Q from P",
+    "choices": ["61.6\u2070", "23\u2070", "90.4\u2070", "113\u2070"],
+    "correctAnswer": 0
+}, {
+    "question": "Divide the L.C.M of 36,54 and 90 by their H.C.F",
+    "choices": ["15", "20", "30", "45"],
+    "correctAnswer": 2
+}, {
+    "question": "The minimum point on the curve y=x\u00b2\u20134x+3 is",
+    "choices": ["(2,-1)", "(0,3)", ".(1,0)", "(2,-4)"],
+    "correctAnswer": 2
+}, {
+    "question": "The number 327,036 was corrected to 327,000 degree of approximation used? i. To 3 significant figures, ii.To 4 significant figures, iii.To the nearest hundred, iv.To the nearest thousand",
+    "choices": ["I and IV only", "II and IV only", "I, II and III only", "I, II, III and IV"],
+    "correctAnswer": 3
+}, {
+    "question": "If 101010 = x\u2081\u2080 + 1111\u2082, the value of x is",
+    "choices": ["32", "27", "19", "13"],
+    "correctAnswer": 1
+}, {
+    "question": "The population of a school is 1,376. Express this to three significant figures",
+    "choices": ["1,370", "1,376", "1,380", "138"],
+    "correctAnswer": 2
+}, {
+    "question": "Adekunle\u2019s daily wage is N80 for the first 10 days and N100 for the next 9 days.Find the daily wage for the remaining 6 working days of the month, if his average daily wage for the month is N90.80",
+    "choices": ["110", "105", "95", "92.50"],
+    "correctAnswer": 2
+}, {
+    "question": "Find the value of x if 4logx + 5logx \u2013 7logx = log16",
+    "choices": ["2", "4", "8", "16"],
+    "correctAnswer": 1
+}, {
+    "question": "A motorist drives from P to Q at an average speed of 80km\/hr and immediately returns from Q to P through the same route at an average speed of 50km\/hr. The average speed for the round-trip journey is",
+    "choices": ["53.3km\/hr", "60.0km\/h", " 62.5km\/hr", "65.0km\/hr"],
+    "correctAnswer": 3
+}, {
+    "question": "If X = array(1,2,3,4,5,6), Y =array(2,4,5,7) and Z = array(1,4,5) which of the following is (are) correct?i.n(XUYUZ)=13, ii.(XnY)UZ=Xn(YUZ), iii.n(XnYnZ)=2",
+    "choices": ["I only", "II only", "I and III only", "II and III only"],
+    "correctAnswer": 3
+}, {
+    "question": "Factorize:6\u00b2\u1d50\u207a\u00b9 + 7(6\u1d50)\u20135",
+    "choices": ["array(3(6\u1d50)+5)array(2(6\u1d50)\u20131)", "array(3(6\u1d50)\u20135)array(2(6\u1d50)+1)", "array(3(6\u1d50)\u20135)array(3(6\u1d50)+1)", "array(3(6\u1d50)+5)array(3(6\u1d50)\u20131)"],
+    "correctAnswer": 0
+}]
