@@ -1,13 +1,13 @@
 const database = require("../config/config.database")
 const uuid = require("./../utils/uuid")
-//TODO: Add jwt verification for addmin to add files to dayabase and password reconfirm
+//TODO: Add jwt verification for admin to add files to database and password reconfirm
 //REFACTOR : check if file already exist
 const _ = require('lodash');
 
 
 //TODO :: add path for admin
 function add(req, res, next) {
-    //destrucure request body
+    //destructure request body
     const { course_title, course_code, file_url, file_type } = req.body
     database
         .promise()
@@ -20,7 +20,7 @@ function add(req, res, next) {
 }
 
 
-//search funtionality
+//search functionality
 function search(req, res, next) {
     //destructure payload
     const { query, filters } = req.body;

@@ -20,7 +20,7 @@ app.use("/analytics", analytics)
 app.use("/contact", contact)
 app.use('/files', files)
 app.use("/ssr", ssr)
-pp.use("/ssr", ssr)
+app.use("/ssr", ssr)
 
 /*
 * endpoints  are
@@ -39,7 +39,7 @@ pp.use("/ssr", ssr)
 
 // create the connection test
 app.get("/", (req, res) => {
-    res.send("Ignition started, whatever happens don't shout" + process.env.HOT_ROLLERS)
+    res.send("Ignition started, whatever happens don't shout")
 })
 
 

@@ -16,7 +16,7 @@ function register(req, res) {
             .then(([rows, fields]) => {
                 //add user if not exist
                 if (rows[0]) {
-                    return res.send({ message: _.toUpper(email) + _.capitalize(" already exists"), error: true })
+                    return res.send({ message: `An account with the email <strong>${email}</strong> already exists`, error: true })
                 }
                 //inform user of existence if found
                 else {
@@ -24,10 +24,10 @@ function register(req, res) {
                         .promise()
                         .query("INSERT INTO user_information (user_id, firstname, lastname, email, password)  VALUES (?,?,?,?,?)", [uuidv4(), firstname, lastname, email, hash_password(password)])
                         .then(([rows, fields]) => {
-                            return res.send({ message: _.toUpper(email) + _.capitalize(" has been successfully added"), error: false })
+                            return res.send({ message: `<strong>${email}</strong> ${_.capitalize(" has been successfully registered")}`, error: false })
                         })
                         .catch(error => {
-                            return res.send({ message: _.capitalize("An error occured! please retry"), error: true })
+                            return res.send({ message: _.capitalize("An error occurred! please retry"), error: true })
                         })
                     // .then(() => database.end());
                 }
@@ -35,7 +35,7 @@ function register(req, res) {
             .catch(error => console.log(error))
     } catch (error) {
         //tell user to retry on error
-        return res.send({ message: _.capitalize("An error occured! please retry"), error: true })
+        return res.send({ message: _.capitalize("An error occurred! please retry"), error: true })
     }
     //close database connection in the end
     /*  finally {
@@ -77,11 +77,11 @@ function login(req, res) {
             }
             //user if not found,
             else {
-                return res.send({ error: `<strong>${email}</strong> not found!` })
+                return res.send({ error: `<strong>${email}</strong> is not registered!` })
             }
         })
         .catch(error => console.log(error))
-    //REFACTOR :: fix datase throwing error when connection is closed
+    //REFACTOR :: fix database throwing error when connection is closed
     // .then(() => database.end())
 }
 
