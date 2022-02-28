@@ -4,3 +4,4 @@ node_modules
 ./*/.env
 #ignore script in sandbox
 .env
+sandbox.js

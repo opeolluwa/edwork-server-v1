@@ -5,6 +5,13 @@ const cors = require('cors');
 const { profile_information, update_profile_information } = require('../controllers/profile');
 const { decode_jwt, validate_auth_token } = require('../middleware/profile');
 
+
+/*
+* endpoints  are
+* POST :: /profile  {returns user account information}
+* POST :: /profile/update { update user account information with payload provided}
+*/
+
 router.use(cors())
 /*
 * accept token in headers
