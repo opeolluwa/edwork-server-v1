@@ -1,10 +1,10 @@
-const Analytics = require("./../lib/classes/analytics"); //analytics constructor
+const database = require("../config/config.database");
 
-//instatiate analytics
-function nethbooks(req, res) {
-    const nethbooks = new Analytics("https://nethbooks.com.ng")
-    res.send(nethbooks)
+function pageCount(req, res) {
+    database
+        .promise()
+        .query("SELECT * FROM analytics")
+        .then(([rows, field]) => {
+            res.send(rows)
+        })
 }
-
-
-module.exports = { nethbooks }
