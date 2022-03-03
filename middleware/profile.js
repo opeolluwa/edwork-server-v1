@@ -27,14 +27,14 @@ module.exports = {
     },
 
 
-    //verify token if it's signed using the secrete key or not, then decode it and procedd to user profile route
+    //verify token if it's signed using the secrete key or not, then decode it and proceed to user profile route
     decode_jwt: (req, res, next) => {
 
         try {
-            //get token from validate_auth_oken middleware
+            //get token from validate_auth_token middleware
             const { jwt: token } = req.token;
 
-            //send un athorized error if token not found
+            //send unauthorized error if token not found
             if (!jwt.verify(token)) {
                 res.status(403).send({ message: _.capitalize("forbidden!") })
             }

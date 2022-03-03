@@ -52,6 +52,7 @@ function register(req, res) {
 function login(req, res) {
     const { email, password } = req.body
 
+    console.log(email);
     //check if user exists
     database
         .promise()

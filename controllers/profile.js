@@ -5,7 +5,7 @@ const database = require("../config/config.database");
 function profile_information(req, res, next) {
     /*get user object from decode_jwt middleware,
     * the fields returned are
-    * {firststname, lastname, email}
+    * {firstname, lastname, email}
     * get all required fields and then send them back to user
     */
     const { email: user_email } = req.user
@@ -25,9 +25,9 @@ function profile_information(req, res, next) {
 function update_profile_information(params) {
     /*get user object from decode_jwt middleware,
    * the fields returned are
-   * {firststname, lastname, email}
+   * {firstname, lastname, email}
    * 
-   * get fields to be updated from update user_infor middleware
+   * get fields to be updated from update user_info middleware
    * update the user profile information and 
    * send them back to user
    */

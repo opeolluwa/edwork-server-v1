@@ -14,7 +14,7 @@ function quiz(req, res) {
             .then(([rows, fields]) => {
                 //extract 50 random questions from the result
                 //filter the response to be sent, send only question and option, keep a reference to the answer in the user table using a uniques id
-                const response = randomQuestions(rows, 50)
+                const questions = randomQuestions(rows, 50)
                     .map((questions) => {
                         /*   {
                          "id": 194,
@@ -35,7 +35,7 @@ function quiz(req, res) {
                         }
 
                     })
-                res.send(response)
+                res.send({ questions })
                 //proceed to store the answers here
             })/* .then(async (response) => {
                 const { question, option_a, option_b, option_c, option_d, answer, id } = response
