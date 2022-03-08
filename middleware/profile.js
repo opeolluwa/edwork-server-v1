@@ -30,7 +30,6 @@ module.exports = {
 
     //verify token if it's signed using the secrete key or not, then decode it and proceed to user profile route
     decode_jwt: (req, res, next) => {
-
         try {
             //get token from validate_auth_token middleware
             const { jwt: token } = req.token;
@@ -88,50 +87,123 @@ module.exports = {
                         if (rows[0]) {
                             return res.send({ message: `The email "<strong>${new_email}</strong>" in use by another user`, error: true })
                         }
+                        /* proceed if the new email is
+                          * not same as the current user's 
+                          * and the email does not exist in the database
+                        */
+                        next();
 
+                    }).catch((error) => {
+                        //TODO: add logger here
+                      console.log(error.message);
                     });
             }
-            /* proceed if the new email is
-            * not same as the current user's 
-            * and the email does not exist in the database
-           */
-            next();
-
-
 
         }
-
-
-
     },
 
 
-    //check if  phone being changed already exists
-    phone_update_exists(req, res, next) {
-        database.promise()
-            .query("SELECT * FROM user_information WHERE LOWER(phone) = ?", [phone])
-            .then(([rows, fields]) => {
-                //add user if not exist
-                if (rows[0]) {
-                    return res.send({ message: `The phone number "<strong>${phone}</strong>" is in use by another user`, error: true })
-                }
-            })
-        // proceed if otherwise
-        next();
-    },
 
 
     //check if username,  being changed already exists
     username_update_exists(req, res, next) {
-        database.promise()
-            .query("SELECT * FROM user_information WHERE LOWER(email) = ?", [email])
-            .then(([rows, fields]) => {
-                //add user if not exist
-                if (rows[0]) {
-                    return res.send({ message: `the username "<strong>${username}</strong>" is already taken`, error: true })
-                }
-            })
-        // proceed if otherwise
-        next();
+        //get the new username 
+        const { username: new_username } = req.body;
+        const { user_id } = req.user
+        // return res.send({ user_id })
+
+        //TODO: add extended validation to remove special characters
+        if (!new_username) {
+            return res.send("please provide a valid username")
+        }
+
+        else {
+            //check if the current username is the same as new username
+            database
+                .promise()
+                .query("SELECT * FROM user_information WHERE LOWER(user_id) = ?", [user_id])
+                .then(([rows, fields]) => {
+                    const { username: fetched_username } = rows[0]
+                    //the username already exist on the user profile
+                    if (new_username === fetched_username) {
+                        return res.send({ message: `the username "<strong>${username}</strong>" already exist on your profile`, error: true })
+                    }
+
+                    //if the username is different check if it's already in use by another user
+                    else if (new_username !== fetched_username) {
+                        database
+                            .promise()
+                            .query("SELECT * FROM user_information WHERE lower(username) =?", [new_username])
+                            .then(([rows_with_new_username, fields]) => {
+                                if (rows_with_new_username[0]) {
+                                    return res.send({ message: `The username "<strong>${new_username}</strong>" is already in use by another user`, error: true })
+                                }
+                            })
+                    }
+                    //username is unique and not in use, proceed with the update
+                    next()
+
+                })
+                .catch((error) => {
+                    //TODO: add logger here
+                    console.log(error.message);
+                })
+        }
+
+    },
+
+
+
+
+    //check if username,  being changed already exists
+    phone_update_exists(req, res, next) {
+        //get the new phone 
+        const { phone: new_phone } = req.body;
+        const { user_id } = req.user
+        // return res.send({ user_id })
+
+        //TODO: add extended validation to remove special characters
+        if (!new_phone) {
+            return res.send("please provide a valid phone number")
+        }
+
+        else {
+            //check if the current phone is the same as new phone
+            database
+                .promise()
+                .query("SELECT * FROM user_information WHERE LOWER(user_id) = ?", [user_id])
+                .then(([rows, fields]) => {
+                    const { phone: fetched_phone } = rows[0]
+                    //the phone already exist on the user profile
+                    if (new_phone === fetched_phone) {
+                        return res.send({ message: `the phone "<strong>${phone}</strong>" already exist on your profile`, error: true })
+                    }
+
+                    //if the phone is different check if it's already in use by another user
+                    else if (new_phone !== fetched_phone) {
+                        database
+                            .promise()
+                            .query("SELECT * FROM user_information WHERE lower(phone) =?", [new_phone])
+                            .then(([rows_with_new_phone, fields]) => {
+                                if (rows_with_new_phone[0]) {
+                                    return res.send({ message: `The phone "<strong>${new_phone}</strong>" is already in use by another user`, error: true })
+                                }
+                            })
+                            .catch((error) => {
+                                //TODO: add logger here
+                                console.log(error.message);
+                                // res.send({error: error.message})
+                            })
+                    }
+                    //phone is unique and not in use, proceed with the update
+                    next()
+
+                })
+                .catch((error) => {
+                    //TODO: add logger here
+                    console.log(error.message);
+                })
+        }
+
     },
 }
