@@ -38,11 +38,6 @@ function register(req, res) {
         //tell user to retry on error
         return res.send({ message: _.capitalize("An error occurred! please retry"), error: true })
     }
-    //close database connection in the end
-    /*  finally {
-         database.end()
- 
-     } */
 }
 
 
@@ -67,7 +62,7 @@ function login(req, res) {
 
                 //compare req.body.user_password with stored hash
                 if (compare_hash(password, hash)) {
-                    //send token if true
+                    //send token if true, TODO: begin session once use login
                     const jwt_token = jwt.sign({ user_id, email, firstname })
                     return res.send({ user_id, email, firstname, jwt_token })
                 }
