@@ -2,43 +2,39 @@ const email_validator = require("email-validator");
 const validUrl = require('valid-url');
 const _ = require('lodash');
 const jwt = require("../utils/jwt");
+const { database } = require("../config/config.database");
+const otpGenerator = require('otp-generator')
+
 
 
 //middleware for handling user authentication :; signup, login and search query
 module.exports = {
     //verify registration data
-    validate_auth_register: (req, res, next) => {
+    validateRegister: (req, res, next) => {
         //fetch data from pay load
         const { email, firstname, lastname, password } = req.body
-
         //!use_email
         if (!email_validator.validate(email)) {
             return res.status(400).send({ message: _.capitalize("please provide a valid email") })
         }
-
         //!user_first_name
         if (!firstname) {
             return res.status(400).send({ message: _.capitalize("please provide first name") })
         }
-
         //!user_last_name
-
         if (!lastname) {
             return res.status(400).send({ message: _.capitalize("please provide last name") })
         }
-
         //!password
-
         if (!password || password.length < 8) {
             return res.status(400).send({ message: _.capitalize("please enter a password of minimum of  8 characters") })
         }
-
         //proceed with othe transaction
         next();
     },
 
     //verify login details
-    validate_auth_login: (req, res, next) => {
+    validateLogin: (req, res, next) => {
         //fetch data from pay load
         const { email, password } = req.body
         //!use_email
@@ -48,8 +44,7 @@ module.exports = {
     },
 
     //checks if user add token to header and validate token
-    validate_auth_token: (req, res, next) => {
-
+    validateAuthToken: (req, res, next) => {
         try {
             //get payload headers
             const auth_headers = req.headers["authorization"] || req.headers["Authorization"];
@@ -68,17 +63,15 @@ module.exports = {
         }
     },
     //verify token
-    decode_jwt: (req, res, next) => {
-
+    decodeJWT: (req, res, next) => {
         try {
-            //get token from validate_auth_oken middleware
+            //get token from validateAuthToken middleware
             const { jwt: token } = req.token;
 
-            //send un athorized error if token not found
+            //send unauthorize error if token not found lse fire on
             if (!jwt.verify(token)) {
                 res.status(403).send({ message: _.capitalize("forbidden!") })
             }
-            //else fire on
             const user = jwt.verify(token);
             req.user = user
             next();
@@ -87,5 +80,63 @@ module.exports = {
         }
 
 
+    },
+
+
+
+
+    //check if user is registered
+    isEmailRegistered(req, res, next) {
+        const { email } = req.body
+        database.promise()
+            .query("SELECT * FROM user_information WHERE LOWER(email) = ?", [email])
+            .then(([rows, fields]) => {
+                //add user if not exist
+                if (!rows[0]) {
+                    return res.send({ message: `The provided email &quot;${email}&quot; is not registered with us exists`, error: true })
+                }
+                req.email = { email }
+                next()
+
+            });
+    },
+
+
+
+
+    //receive and revalidate token sent to user for account reset or update
+    sendOTPtoEmail(req, res, next) {
+        const { email } = req.email;
+        /* TODO: generate opt,
+        * store otp in session store and send it to email,
+        * if session has not expired,
+        * if session has expired tell user to restart session,
+        *  drop all value in the session store
+        */
+        const OTP = otpGenerator.generate(6, { specialChars: false });
+        console.log(`the reset token  ${OTP} has been sent to ${email}`);
+        next()
+    },
+
+
+
+    //receive and revalidate token sent to user for account reset or update
+    confirmSentOTP(req, res, next) {
+        //get the token, be it as payload or as router params
+        /* check the session if it's still active,
+        * if not send prompt user to restart
+        * either way, drop the old otp used for validation
+        * then proceed to allow the user set new password or to request for new otp for account reset
+        */
+
+        //get otp from session store here then proceed to compare
+        const storedOTP = "11kzva";
+        const { otp, email } = req.body
+        if (!otp || otp !== storedOTP) {
+            //TODO: check if token match here
+            return res.status(401)
+                .send({ error: true, message: "invalid reset token, please restart the process after some time" })
+        }
+        next();
     }
 }

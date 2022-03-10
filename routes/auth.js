@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
 const cors = require('cors')
-const { register, login } = require('../controllers/auth')
-const { validate_auth_login, validate_auth_register } = require('../middleware/auth')
+const { register, login, setNewPassword } = require('../controllers/auth')
+const { validateLogin, validateRegister, isEmailRegistered, sendOTPtoEmail, confirmSentOTP } = require('../middleware/auth')
 
 
 /*
@@ -14,10 +14,12 @@ const { validate_auth_login, validate_auth_register } = require('../middleware/a
 
 
 router.use(cors())
-router.post("/sign-up", validate_auth_register, register) // register user
-router.post("/login", validate_auth_login, login) //login user
+router.post("/sign-up", validateRegister, register) // register user
+router.post("/login", validateLogin, login) //login user
+//TODO: create a temporary data table to store session id and reset token, table columns are to be dropped after 10 minutes, table columns are to be reset on retries
 
-//TODO: update user data
-//TODO:: reset password
+//TODO: match /reset and /reset?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWU1NWUzYWYtNTA2Ni00NjQ5LThmYTQtOTBiM2M5NTM2NTExIiwiZW1haWwiOiJzZXNzaW9uQG1vZGUuY29tIiwiZmlyc3RuYW1lIjoib3Blb2xsdXdhIiwiaWF0IjoxNjQ2OTQzNjY3LCJleHAiOjE2NDY5NDcyNjd9.DSipQvfuUq1zTZdtiw-GeABrW8XvYX83DVCIynjHK5w
+router.post("/reset", isEmailRegistered, sendOTPtoEmail, confirmSentOTP, setNewPassword)
+router.get("/reset?token=:token", isEmailRegistered, sendOTPtoEmail, setNewPassword)
 
 module.exports = router

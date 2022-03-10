@@ -82,15 +82,39 @@ function login(req, res) {
     // .then(() => database.end())
 }
 
-//update user account
-function reset(req, res) {
+
+//update user password
+function setNewPassword(req, res) {
+    const { email } = req.email;
+
+    const { password, confirmPassword, } = req.body
+    //new password missing
+    if (!password || password.length < 8) {
+        return res.status(400).send({ error: true, message: "new password may not be less than 8 characters" })
+    }
+    //now password missing
+    if (!confirmPassword || confirmPassword.length < 8) {
+        return res.status(400).send({ error: true, message: "confirm password may not be less than 8 characters" })
+    }
+    //password unmatched
+    if (password !== confirmPassword) {
+        return res.status(400).send({ error: true, message: "password does not match" })
+    }
+
+    //password match
+    database
+        .promise()
+        .query("UPDATE user_information SET password = ?  WHERE LOWER(email) = ?", [password, email])
+        .then(() => {
+            return res.send({ message: "password reset successful", email, pass: hash_password(password) })
+        })
 
 }
 
-//logout user, expire token now
+//logout user, expire session now
 function logout(req, res, next) {
-
+    req.session.destroy();
 }
 
 //export class 
-module.exports = { register, login, reset, logout }
+module.exports = { register, login, logout, setNewPassword }
