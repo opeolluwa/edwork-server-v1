@@ -5,13 +5,13 @@ const mysql = require('mysql2/promise');
 const MySQLStore = require('express-mysql-session')(session);
 const PORT = process.env.PORT || 3300;
 
+
 //Database connection option
 const databaseConnectionOptions = {
     host: process.env.DB_HOST,
-    // port: 3306,
     user: process.env.DB_USER,
     password: process.env.DB_ACCESS_KEY,
-    database: process.env.DB_SESSION_SCHEMA
+    database: process.env.DB_SCHEMA
 }
 
 //instantiate the session
