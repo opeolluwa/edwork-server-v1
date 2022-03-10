@@ -217,7 +217,6 @@ CREATE TABLE `notifications` (
 
 LOCK TABLES `notifications` WRITE;
 /*!40000 ALTER TABLE `notifications` DISABLE KEYS */;
-INSERT INTO `notifications` VALUES (1,'Update! ','Announcing Edwork Mobile v1.5.3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ','2022-02-28 00:00:00'),(2,'New Feature ','quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto','2022-02-23 00:00:00'),(3,'Introducing new color themes','quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto','2022-01-12 00:00:00'),(4,'qrhnf\\\'oqkd[pmwfq[','quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto','2022-01-15 00:00:00'),(5,'ahfbkj,[psj[p\'\'sdl[\'pidg','quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto','2022-02-23 00:00:00'),(6,'\'5\', \'ahfbkj,[psj[p\\\'\\\'sdl[\\\'pidg\', \'quia et suscipit\\\\nsuscipit recusandae consequuntur expedita et cum\\\\nreprehenderit molestiae ut ut quas totam\\\\nnostrum rerum est autem sunt rem eveniet architecto\', \'2022-02-23 00:00:00\'\n','\'5\', \'ahfbkj,[psj[p\\\'\\\'sdl[\\\'pidg\', \'quia et suscipit\\\\nsuscipit recusandae consequuntur expedita et cum\\\\nreprehenderit molestiae ut ut quas totam\\\\nnostrum rerum est autem sunt rem eveniet architecto\', \'2022-02-23 00:00:00\'\n','2022-02-23 00:00:00');
 /*!40000 ALTER TABLE `notifications` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -288,6 +287,30 @@ INSERT INTO `quiz_csc_201` VALUES (1,'ALU stands for','Arithmetic Logic Unit','A
 UNLOCK TABLES;
 
 --
+-- Table structure for table `sessions`
+--
+
+DROP TABLE IF EXISTS `sessions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `sessions` (
+  `session_id` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `expires` int unsigned NOT NULL,
+  `data` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin,
+  PRIMARY KEY (`session_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `sessions`
+--
+
+LOCK TABLES `sessions` WRITE;
+/*!40000 ALTER TABLE `sessions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `sessions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `user_information`
 --
 
@@ -320,6 +343,7 @@ CREATE TABLE `user_information` (
 
 LOCK TABLES `user_information` WRITE;
 /*!40000 ALTER TABLE `user_information` DISABLE KEYS */;
+INSERT INTO `user_information` VALUES ('2626849e-8094-4c50-8b51-02999fe576c2','aa','aaa','aaa@a.com',NULL,NULL,0,'2022-03-07 02:23:36',NULL,NULL,'$2b$13$UXTrPevxuRYA0gOyYd88pOCwi3KT7GJkoSuEHP/H3cWFb/H48bI86'),('413ec58b-e463-4ba4-a34a-bfdeca79c910','ade','femi','adee@femi.com','0812233456','drizzle-44',0,'2022-03-07 21:34:50',NULL,NULL,'password'),('46df85a0-eec5-469e-a070-c09bc90c5e50','a','a','a@a.com',NULL,NULL,0,'2022-03-09 08:24:01',NULL,NULL,'$2b$13$f9whpnH1kR7I2KbXA6CLUOwj.Y8JTDaI6zyU0/Dfpji5OhWBKz41S'),('5e55e3af-5066-4649-8fa4-90b3c9536511','opeolluwa','drizzle','session@mode.com',NULL,NULL,0,'2022-03-10 12:46:11',NULL,NULL,'$2b$13$rvf0kqqscmoWIdOr2gaRue1Fyf3It6jUGnes0uM1OshRVebB6HxWi'),('824a2c08-360a-4f36-bb75-70e80f87d8b8','aaa','aaa','adefemiadeoye@yahoo.com','0812233455','drizzle',0,'2022-03-04 04:04:05',NULL,NULL,'$2b$13$RaoTvhH0Qst/a.bkfQcbreEzDHsiUklHzRE3YZSyPLKkNOXvEHRsi'),('95d179f1-7e98-4970-b678-d236828b8aed','adeoye','adefemi','opeoluwa@mailer.com',NULL,'opeolluwa-99',0,'2022-03-08 22:30:11',NULL,NULL,'$2b$13$jj7GXfFctX5v8dk.QPATHOw/wSlp639yhEBtUeK0WoMP/PcmseoBm'),('a985fc54-0d55-410b-8c5c-756af86b9f3f','aaa','adefemi','adefemiadeoye@mailer.com',NULL,'',0,'2022-03-04 11:44:28',NULL,NULL,'$2b$13$nCdXjMk.kcCI7s.VteGseu1HwlJX1Vu26y6lO8JI7N1Mr2ShMofe6'),('c7390ece-6113-42f3-bdf4-7de2155d7809','ade','femi','ade-33@femi.com','081000000','drizzle-33',0,'2022-03-08 14:02:38',NULL,NULL,'$2b$13$wROVzxslNiGYgu/jiBmgi.r7MFNx4UHHeZNlY.NZf3OzU2yKVXQnC'),('f3687f19-0e2f-4027-983d-b281b08bb4e8','adeopye','femioooo','adefemiopeoluwa@mailer.com','08122890041',NULL,0,'2022-03-07 19:05:35',NULL,'http://localhost:3000/profile/update','$2b$13$hAHg6UOXq2LZwLnfm1.7JODXFmxZJJRCQxgeAWQOxC5Tb/N4vpo.m');
 /*!40000 ALTER TABLE `user_information` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -332,4 +356,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-03-04  0:08:39
+-- Dump completed on 2022-03-10 14:42:43
