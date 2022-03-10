@@ -1,4 +1,4 @@
-//a function that take a word and distort the order
+//a function that takes an array of object and return a random amount of items from the object
 let randomQuestions = function (questionBank, amount) {
     let result = []
     let questions = []
@@ -26,6 +26,6 @@ let randomQuestions = function (questionBank, amount) {
 }
 
 
-module.exports = {randomQuestions}
+module.exports = { randomQuestions }
 // let rr = randomQuestions([{ age: 2 }, { gender: 5 }, { school: 3 }, { chores: 2 }, { bb: 4 }], 3)
 // console.log(rr);
