@@ -1,6 +1,6 @@
 //load in dependencies
 const { update } = require("lodash");
-const database = require("../config/config.database");
+const { database } = require("../config/config.database");
 
 //user profile information to send when they are logged in
 function profile_information(req, res, next) {

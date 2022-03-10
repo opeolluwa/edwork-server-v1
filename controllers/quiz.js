@@ -1,4 +1,4 @@
-const database = require("../config/config.database")
+const {database} = require("../config/config.database")
 const { randomQuestions } = require("../utils/nRandomItems")
 
 

@@ -13,7 +13,7 @@ module.exports = {
 
         //!use_email
         if (!email_validator.validate(email)) {
-            return res.status(400).send({ message: _.capitalize("please provide a valid mail") })
+            return res.status(400).send({ message: _.capitalize("please provide a valid email") })
         }
 
         //!user_first_name

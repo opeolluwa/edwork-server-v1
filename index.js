@@ -5,7 +5,7 @@ const session = require('express-session');
 const mysql = require('mysql2/promise');
 const PORT = process.env.PORT || 3000
 const MySQLStore = require('express-mysql-session')(session);
-const { databaseConnectionOptions } = require("./config/db-connection")
+const { databaseConnectionOptions } = require("./config/config.database")
 
 //instantiate the the application and session 
 const app = express();

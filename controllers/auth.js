@@ -1,11 +1,12 @@
 // load in dependencies
-const database = require("../config/config.database")
-const { v4: uuidv4 } = require('uuid');
 const jwt = require("../utils/jwt")
-const { hash_password, compare_hash } = require("../utils/bcrypt")
 const _ = require('lodash');
+const { database } = require("../config/config.database")
+const { v4: uuidv4 } = require('uuid');
+const { hash_password, compare_hash } = require("../utils/bcrypt")
 
-//ADD user
+
+//Register user
 function register(req, res) {
     //fetch data from pay load
     const { firstname, lastname, email, password } = req.body

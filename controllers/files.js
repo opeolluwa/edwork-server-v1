@@ -1,11 +1,11 @@
-const database = require("../config/config.database")
+const {database} = require("../config/config.database")
 const uuid = require("./../utils/uuid")
-//TODO: Add jwt verification for admin to add files to database and password reconfirm
-//REFACTOR : check if file already exist
 const _ = require('lodash');
 
 
 //TODO :: add path for admin
+//TODO: Add jwt verification for admin to add files to database and password reconfirm
+//REFACTOR : check if file already exist
 function add(req, res, next) {
     //destructure request body
     const { course_title, course_code, file_url, file_type } = req.body

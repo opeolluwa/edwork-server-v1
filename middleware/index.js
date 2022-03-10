@@ -6,10 +6,9 @@ const jwt = require("../utils/jwt");
 
 module.exports = {
 
-    //handle search :: quering database
+    //handle search :: querying database
     validate_search_query: (req, res, next) => {
         const { query } = req.body;
-
         if (!query || query.length <= 3) {
             res.status(400).send({ message: _.capitalize("please provide a keyword of minimum character length = 5") })
         }
@@ -18,7 +17,7 @@ module.exports = {
 
     //handle adding files to database
     validate_search_add_files: (req, res, next) => {
-        //destrucure request body
+        //destructure request body
         const { course_title, course_code, file_url, file_type } = req.body
 
         //!course_title
