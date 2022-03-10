@@ -3,16 +3,9 @@ const express = require('express');
 const session = require('express-session');
 const mysql = require('mysql2/promise');
 const MySQLStore = require('express-mysql-session')(session);
-const PORT = process.env.PORT || 3300;
+const PORT = process.env.PORT || 3300
+const { databaseConnectionOptions } = require("./config/db-connection")
 
-
-//Database connection option
-const databaseConnectionOptions = {
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_ACCESS_KEY,
-    database: process.env.DB_SCHEMA
-}
 
 //instantiate the session
 const connection = mysql.createPool(databaseConnectionOptions);
@@ -36,10 +29,11 @@ const app = express();
 app.use(express.json())
 app.use(session({
     key: 'session_cookie_name',
-    secret: 'session_cookie_secret',
+    secret: process.env.SESSION_SECRET,
     store: sessionStore,
     resave: false,
-    saveUninitialized: false
+    saveUninitialized: false,
+    // cookie: { path: "/profile" }
 }));
 
 app.get("/", (req, res) => {
