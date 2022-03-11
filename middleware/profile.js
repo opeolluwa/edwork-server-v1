@@ -7,7 +7,7 @@ const email_validator = require("email-validator");
 //the middleware to handle user account
 module.exports = {
     //checks if user add token to header and validate token
-    validate_auth_token: (req, res, next) => {
+    validateAuthToken: (req, res, next) => {
         try {
             //get payload  authorization headers
             const auth_headers = req.headers["authorization"] || req.headers["Authorization"];
@@ -29,9 +29,9 @@ module.exports = {
 
 
     //verify token if it's signed using the secrete key or not, then decode it and proceed to user profile route
-    decode_jwt: (req, res, next) => {
+    decodeJWT: (req, res, next) => {
         try {
-            //get token from validate_auth_token middleware
+            //get token from validateAuthToken middleware
             const { jwt: token } = req.token;
             //send unauthorized error if token not found
             if (!jwt.verify(token)) {
@@ -95,7 +95,7 @@ module.exports = {
 
                     }).catch((error) => {
                         //TODO: add logger here
-                      console.log(error.message);
+                        console.log(error.message);
                     });
             }
 

@@ -57,12 +57,27 @@ app.use("/notification", notification)
 
 // create the connection test
 app.get("/", (req, res) => {
-    req.session.isAuth = true
-    console.log(req.session);
     console.log(req.session.id);
-    res.send("Session! it all starts here")
+    console.log(req.session);
+
+    req.session.isAuth = true;
+    res.send("Session! it all starts here ")
+    /*  res.json({
+         session: req.session,
+         id: req.session.id,
+         status: res.status,
+         state: "Session! it all starts here"
+     }); */
 })
 
+app.get("/end", (req, res) => {
+    req.session.destroy((error) => {
+        if (error) {
+            return res.send({ error: error.message })
+        }
+        return res.send("session destroyed")
+    })
+})
 app.listen(PORT, () => {
     console.log(`API listening on port http://localhost:${PORT}`)
 });

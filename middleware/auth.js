@@ -132,11 +132,14 @@ module.exports = {
         //get otp from session store here then proceed to compare
         const storedOTP = "11kzva";
         const { otp, email } = req.body
+        console.log(otp);
         if (!otp || otp !== storedOTP) {
             //TODO: check if token match here
-            return res.status(401)
-                .send({ error: true, message: "invalid reset token, please restart the process after some time" })
+            return res.send({ error: true, message: "invalid reset token, please try again" })
         }
-        next();
+        else {
+            return res.send({ error: false })
+        }
+        // next();
     }
 }
