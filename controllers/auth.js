@@ -4,6 +4,7 @@ const _ = require('lodash');
 const { database } = require("../config/config.database")
 const { v4: uuidv4 } = require('uuid');
 const { hash_password, compare_hash } = require("../utils/bcrypt")
+const otpGenerator = require('otp-generator');
 
 
 //Register user
@@ -212,9 +213,20 @@ function confirmSentToken(req, res, next) {
     * either way, drop the old otp used for validation
     * then proceed to allow the user set new password or to request for new otp for account reset
     */
+    /* client reset link look like and expires in  24 hours 
+http://localhost:8080/validate-token/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im90cCI6IkZ1ejJacWFIcXE4S0ZBYzAiLCJ1c2VyRW1haWwiOiJhZGVveWVhZGVmZW1AbWFpbGVyLmNvbSIsInVzZXJJZCI6IiAyNjI2ODQ5ZS04MDk0LTRjNTAtOGI1MS0wMjk5OWZlNTc2YzIiLCJ0aW1lU3RhbXAiOjE2NDcxODQ2NDY3MjZ9LCJpYXQiOjE2NDcxODQ2NDYsImV4cCI6MTY0NzE4ODI0Nn0.S4-GDyaN7goRbD8Y1ce5yHpXCmu4Ix3yoAvhBFSej4o
+*/
     const { token } = req.body
     console.log(token);
-    return
+    const otp = otpGenerator.generate(16, { specialChars: false });
+    //validate token
+    if (token) {
+        return res.send({ error: false, otp })
+    }
+    else {
+        return res.send({ error: true })
+    }
+
 }
 
 
