@@ -4,6 +4,7 @@ const router = express.Router()
 const cors = require('cors');
 const { profile_information, update_profile_information } = require('../controllers/profile');
 const { decodeJWT, validateAuthToken, email_update_exists, username_update_exists, phone_update_exists } = require('../middleware/profile');
+router.use(cors())
 
 
 /*
@@ -12,7 +13,6 @@ const { decodeJWT, validateAuthToken, email_update_exists, username_update_exist
 * POST :: /profile/update { update user account information with payload provided}
 */
 
-router.use(cors())
 /*
 * accept token in headers
 * validate token with validateAuthToken,
@@ -21,7 +21,7 @@ router.use(cors())
 * TODO: check if user with the same email, phone or username exists 
 */
 
-router.post("/update", validateAuthToken, decodeJWT, email_update_exists, username_update_exists, phone_update_exists, update_profile_information)
+router.post("/update", validateAuthToken, decodeJWT, /* email_update_exists, *//*  username_update_exists, */ /* phone_update_exists, */ update_profile_information)
 
 
 /*
