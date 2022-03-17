@@ -25,7 +25,6 @@ function profile_information(req, res, next) {
 
 function update_profile_information(req, res) {
 
-    // return res.send("updated here")
     /*get user object from decodeJWT middleware,
    * the fields returned are
    * {firstname, user_id, email}
@@ -40,22 +39,24 @@ function update_profile_information(req, res) {
     */
     const payload = req.body;
     const fields = Object.keys(payload);
+    console.log(fields);
+    // return res.send({ fields })
     let query = "UPDATE user_information SET "
     for (const field in payload) {
         query += ` \`${field}\` = '${req.body[field]}', `
     }
     query = query.slice(0, -2); //remove trailing space and comma
-    // console.log(query);
+    console.log(query);
 
     database
         .promise()
-        //UPDATE user_information SET  `firstname` = 'jane',  `lastname` = 'doe,  `phone` = '081000 000 000',  `profile_picture_url` = 'http://localhost:3000/picture.png'
+        //UPDATE user_information SET  `firstname` = 'jane',  `lastname` = 'doe,  `phone` = '081000 000 000',  `'
         .query(query + " WHERE (`user_id` = ?)", [user_id])
         .then(([rows, fields]) => {
             res.send(rows[0])
         })
-    res.send({ message: "updated!" })
 
+    res.send({ message: "updated!", error: false })
 }
 
 
