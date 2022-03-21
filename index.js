@@ -43,6 +43,7 @@ app.use(session({
 const contact = require('./routes/contact') //contact form
 const auth = require('./routes/auth') //{login, logout, register and account recovery}
 const files = require('./routes/files') //search database for files {add, search, update fields and delete}
+const forum = require('./routes/forum') //forum {add, search, update fields and delete}
 const profile = require("./routes/profile") //user profile {get:/profile, post:profile/update}
 const quiz = require("./routes/quiz") //mock quiz {post:subject}
 const notification = require("./routes/notification"); //notification {get:notification, returns new notification, post(admin):/notification/add, add notification using admin privileges}
@@ -50,6 +51,7 @@ const notification = require("./routes/notification"); //notification {get:notif
 //Mount routes
 app.use("/contact", contact)
 app.use('/files', files)
+app.use('/forum', forum)
 app.use("/auth", auth);
 app.use("/profile", profile);
 app.use("/quiz", quiz);
