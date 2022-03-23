@@ -1,9 +1,9 @@
-const {database} = require("../config/config.database")
+const { database } = require("../config/config.database")
 const { randomQuestions } = require("../utils/nRandomItems")
 
 
 
-function quiz(req, res) {
+function quizGenerator(req, res) {
     //get the subject from the user agent
     const { subject } = req.body
     try {
@@ -44,10 +44,15 @@ function quiz(req, res) {
     } catch (error) {
         res.send(error)
     }
-
 }
 
-module.exports = { quiz }
+function quizMarker(req, res) {
+    //get payload from client
+    const { answers: idAndAnswersIndex, subject } = req.body
+    console.log(subject, idAndAnswersIndex);
+}
+
+module.exports = { quizGenerator, quizMarker}
 
 
 //a function that takes in a number an <array> as first argz and a <size> as second and return  

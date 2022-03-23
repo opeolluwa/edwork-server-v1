@@ -1,9 +1,12 @@
 const express = require("express")
 const router = express.Router()
 const cors = require('cors')
-const { quiz } = require("../controllers/quiz");
+const { quizGenerator, quizMarker } = require("../controllers/quiz");
 
-router.post("/", quiz);
+
+router.post("/", quizGenerator);
+router.post("/submit", quizMarker);
+
 router.use(cors())
 
 module.exports = router
