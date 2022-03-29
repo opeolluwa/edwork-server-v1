@@ -1,6 +1,6 @@
 const { database } = require("../config/config.database")
 const { randomQuestions } = require("../utils/nRandomItems")
-global.score = 0;
+global.score = [];
 
 
 function quizGenerator(req, res) {
@@ -14,7 +14,7 @@ function quizGenerator(req, res) {
             .then(([rows, fields]) => {
                 //extract 50 random questions from the result
                 //filter the response to be sent, send only question and option, keep a reference to the answer in the user table using a uniques id
-                const questions = randomQuestions(rows, 70)
+                const questions = randomQuestions(rows, 5)
                     .map((questions) => {
                         /*   {
                          "id": 194,
@@ -50,41 +50,73 @@ function quizMarker(req, res, next) {
     //get payload from client
     const { answers: idAndAnswersIndex, subject } = req.body
     const idOfAttemptedQuestion = Object.keys(idAndAnswersIndex)
-    // console.log(subject, idAndAnswersIndex);
-//[3,65, 45,102]
-    /*    idOfAttemptedQuestion.forEach(element => {
-           database
-               .promise()
-               .query(`SELECT answer FROM ${subject.toLowerCase()}_question_bank WHERE (id =? )`, [element])
-               .then(([rows, fields]) => {
-                   if (rows[0].answer == idAndAnswersIndex[element]) {
-                       counter += 1;
-                   }
-               })
-   
-       }); */
-    var counter = 0;
-    // console.log(counter);
-    for (const element of idOfAttemptedQuestion) {
-        database
-            .promise()
-            .query(`SELECT answer FROM ${subject.toLowerCase()}_question_bank WHERE (id =? )`, [element])
-            .then(([rows, fields]) => {
-                counter = 0
+    const scoreCounter = 0;
+    let query = "";
 
-                if (rows[0].answer == idAndAnswersIndex[element]) {
-                    counter += 1;
-                    // console.log(counter);
-
-                }
-            })
+    for (const field in idOfAttemptedQuestion) {
+        query += `SELECT answer FROM ${subject.toLowerCase()}_question_bank WHERE (id =? ); `
     }
-    console.log(counter);
+
+
+    database
+        .promise()
+        .query(query, [element])
+        .then(([rows, fields]) => {
+            if (rows[0].answer == idAndAnswersIndex[element]) {
+                scoreCounter += 1;
+            }
+        })
+    console.log(scoreCounter);
+
 }
 
 
 
 
+
+
+function loopDB() {
+
+    const idAndAnswersIndex = { 340: 1, 339: 1, 338: 1, 337: 0, 336: 1 }; const subject = "english"
+    //get payload from client
+    // const { answers: idAndAnswersIndex, subject } = req.body
+    const idOfAttemptedQuestion = Object.keys(idAndAnswersIndex)
+    const scoreCounter = 0;
+    let query = "";
+
+    for (const field in idOfAttemptedQuestion) {
+        query += `SELECT id, answer FROM ${subject.toLowerCase()}_question_bank WHERE (id =? ); `
+    }
+
+    let result = []
+    database
+        .promise()
+        .query(query, [...idOfAttemptedQuestion])
+        .then(([rows, fields]) => {
+            for (const elem in rows) {
+                /* 
+               *{ id: 336, answer: '2' }
+                * { id: 337, answer: '0' }
+                *{ id: 338, answer: '1' }
+                */
+                console.log(rows[elem][0]);
+            }
+
+        })
+
+
+
+}
+
+// database
+//         .promise()
+//         .query(`SELECT id, answer FROM ${subject.toLowerCase()}_question_bank WHERE (id =? ); SELECT id, answer FROM ${subject.toLowerCase()}_question_bank WHERE (id =? );`, [2, 5, 89, 9])
+//         .then(function ([rows, fields]) {
+//             console.log(rows);
+//         })
+
+let uu = loopDB()
+// console.log(uu);
 module.exports = { quizGenerator, quizMarker }
 
 
