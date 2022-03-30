@@ -4,7 +4,8 @@ const databaseConnectionOptions = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_ACCESS_KEY,
-    database: process.env.DB_SCHEMA
+    database: process.env.DB_SCHEMA,
+    multipleStatements: true
 };
 
 //create database connection instance 
