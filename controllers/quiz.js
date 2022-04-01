@@ -1,6 +1,5 @@
 const { database } = require("../config/config.database")
 const { randomQuestions } = require("../utils/nRandomItems")
-global.score = [];
 
 
 function quizGenerator(req, res) {
@@ -94,7 +93,7 @@ function quizMarker(req, res, next) {
             const totalAttemptedQuestions = idOfAttemptedQuestion.length;
             const percentage = Number(((score / totalAttemptedQuestions) * 100).toFixed(2))
 
-            console.log({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion });
+            // console.log({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion });
             res.send({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion })
         })
 }
