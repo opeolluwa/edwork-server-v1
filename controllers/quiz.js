@@ -1,7 +1,10 @@
+//import the dependencies
 const { database } = require("../config/config.database")
 const { randomQuestions } = require("../utils/nRandomItems")
+//define a variable to control the number of questions
+const TOTAL_NUMBER_OF_QUESTIONS = 70;
 
-
+//a quiz generator
 function quizGenerator(req, res) {
     //get the subject from the user agent
     const { subject } = req.body
@@ -13,7 +16,7 @@ function quizGenerator(req, res) {
             .then(([rows, fields]) => {
                 //extract 50 random questions from the result
                 //filter the response to be sent, send only question and option, keep a reference to the answer in the user table using a uniques id
-                const questions = randomQuestions(rows, 70)
+                const questions = randomQuestions(rows, TOTAL_NUMBER_OF_QUESTIONS)
                     .map((questions) => {
                         /*   {
                          "id": 194,
@@ -91,10 +94,10 @@ function quizMarker(req, res, next) {
             //build the return value
             const score = scoreCount;
             const totalAttemptedQuestions = idOfAttemptedQuestion.length;
-            const percentage = Number(((score / totalAttemptedQuestions) * 100).toFixed(2))
+            const percentage = Number(((score / TOTAL_NUMBER_OF_QUESTIONS) * 100).toFixed(2))
 
-            // console.log({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion });
-            res.send({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion })
+            //TODO: get the correction and send it to user in next request
+            res.send({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion, totalQuestionFromServer: TOTAL_NUMBER_OF_QUESTIONS })
         })
 }
 
