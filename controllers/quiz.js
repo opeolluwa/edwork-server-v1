@@ -39,10 +39,7 @@ function quizGenerator(req, res) {
                     })
                 res.send({ questions })
                 //proceed to store the answers here
-            })/* .then(async (response) => {
-                const { question, option_a, option_b, option_c, option_d, answer, id } = response
-                res.send({ question, option_a, option_b, option_c, option_d, answer, id })
-            }) */
+            })
     } catch (error) {
         res.send(error)
     }
@@ -55,18 +52,23 @@ function quizMarker(req, res, next) {
     const { answers: idAndAnswersIndex, subject } = req.body
     const idOfAttemptedQuestion = Object.keys(idAndAnswersIndex)
 
-
+    //create 2 variables to hold the dynamic query and the score count
     let scoreCount = 0;
     let dbQuery = "";
 
-    //dynamically generate the SQL multi script for fetching RECORDS from the database
+    /*use a for loop to dynamically generate the SQL
+    * multi script for fetching RECORDS from the database
+   * use a place holder in place of the id's ==> "WHERE (id =? )"
+   */
     for (const field in idOfAttemptedQuestion) {
-        dbQuery += `SELECT id, answer FROM ${subject.toLowerCase()}_question_bank WHERE (id =? ); `
+        // dbQuery += `SELECT id, answer, question FROM ${subject.toLowerCase()}_question_bank WHERE (id =? ); `
+        dbQuery += `SELECT * FROM ${subject.toLowerCase()}_question_bank WHERE (id =? ); `
     }
 
-
+    //the database transaction here
     database
         .promise()
+        //pass the dynamically generated query and the destructured  id's as the sql query
         .query(dbQuery, [...idOfAttemptedQuestion])
         .then(([rows, fields]) => {
             /*  repackage from [[{id, answer}, ..., {id, answer}]] to [{id, answer}, ..., {id, answer}]*/
@@ -76,13 +78,25 @@ function quizMarker(req, res, next) {
                 dbResultsHolder.push(rows[elem][0])
             }
 
-            /*  repackage from [{id, answer}, ..., {id, answer}] to {<id> : <answer>}*/
-            let answersHolder = {}
+            /*  repackage the result form an array of objects [{id, answer}, ..., {id, answer}] 
+            * having  id and answer properties to a single object 
+           * having the id as the property and the answer as value {<id> : <answer>}
+           * that is from [{id, answer}, ..., {id, answer}] to {<id> : <answer>}
+            */
+            let answersHolder = {} // to hold computed answer
+            let correctionsHolder = [] // to hold computer correction
             for (const elem of dbResultsHolder) {
-                Object.assign(answersHolder, { [elem.id]: Number(elem.answer) })
+                //destructure the content of the element to keep the code DRY
+                const { answer, id, question, option_a, option_b, option_c, option_d } = elem
+                //pass the destructured data from each "elem" and the user selected option to both answers and correction holder
+                correctionsHolder.push({ id, question, option_a, option_b, option_c, option_d, userSelect: Number(idAndAnswersIndex[id]), answer:Number(answer) })
+                Object.assign(answersHolder, { [id]: Number(answer) })
+
             }
-            //pass the in form of { '336': 2, '337': 0, '338': 1, '339': 1, '340': 1 } to the next handler
-            return answersHolder
+            //pass the result  in form of { '336': 2, '337': 0, '338': 1, '339': 1, '340': 1 } to the next handler
+            // console.log(correctionsHolder, /* answersHolder */);
+            req.correction = correctionsHolder;
+            return  answersHolder 
         })
         .then((answers) => {
             //get the id of the attempted questions, compare it with selected the user's option for question with same id, increment the scoreCount if match 
@@ -91,13 +105,15 @@ function quizMarker(req, res, next) {
                     scoreCount++
                 }
             }
-            //build the return value
+            //build the return value and including data to compute the stats and correction
             const score = scoreCount;
             const totalAttemptedQuestions = idOfAttemptedQuestion.length;
             const percentage = Number(((score / TOTAL_NUMBER_OF_QUESTIONS) * 100).toFixed(2))
+            const correction = req.correction;
 
-            //TODO: get the correction and send it to user in next request
-            res.send({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion, totalQuestionFromServer: TOTAL_NUMBER_OF_QUESTIONS })
+            console.log({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion, totalQuestionFromServer: TOTAL_NUMBER_OF_QUESTIONS, correction })
+
+            res.send({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion, totalQuestionFromServer: TOTAL_NUMBER_OF_QUESTIONS, correction })
         })
 }
 
