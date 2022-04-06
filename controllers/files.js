@@ -1,4 +1,4 @@
-const {database} = require("../config/config.database")
+const { database } = require("../config/config.database")
 const uuid = require("./../utils/uuid")
 const _ = require('lodash');
 
@@ -21,19 +21,20 @@ function add(req, res, next) {
 
 
 //search functionality
+//TODO: mount filters
 function search(req, res, next) {
     //destructure payload
     const { query, filters } = req.body;
-
-
-    console.log(query)
     database
         .promise()
         .query("SELECT * FROM files WHERE LOWER(course_code) LIKE ?  OR LOWER(course_title) LIKE ?", [`%${query.trim()}%`, `%${query.trim()}%`])
         .then(([rows, fields]) => {
 
-            // match found
+            /* match found, add it to session for use in other files controller
+            * essentially the getRelatedSearchResult and result from related query
+           */
             if (rows.length) {
+                req.session.fileSearchResult = rows;
                 return res.send({ message: rows })
             }
             // no match found
@@ -48,4 +49,28 @@ function search(req, res, next) {
 }
 
 
-module.exports = { search, add }
+//use session to track related content and pagination
+/* once a mach is found, an item is clicked and rendered,
+* resend a request to this end point, 
+* get the same set again and then remove the currently selected,
+* resend the related to the user
+*/
+function getRelatedSearchResult(req, res) {
+    //get the id of the selected file
+    const { id: selectedId } = req.params;
+    database
+        .promise()
+        .query("SELECT * FROM files WHERE( id = ?);", [selectedId])
+        .then(([rows, fields]) => {
+            console.log(rows);
+            return res.send(rows)
+
+        })
+    
+    
+    //use natural language to get related files
+
+    // res.send({ related: fileSearchResult })
+}
+
+module.exports = { search, add, getRelatedSearchResult }
