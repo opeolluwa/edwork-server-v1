@@ -37,14 +37,15 @@ function search(req, res, next) {
                 req.session.fileSearchResult = rows;
                 return res.send({ message: rows })
             }
-            // no match found
+            /*if  no match is found or error, send back the query to the user, we don't take shit here, once the user get his shit the browser will saturate it with more info to build the error result
+            typically no match found for <your shit 😌>*, <query> rather 😂😂😂*/
             else {
-                return res.send({ error: `no match found for "${query}"` })
+                return res.send({ error: `${query}` })
             }
         })
         //if error 
         .catch((error) => {
-            return res.send({ error: _.capitalize(`no match found for "${_.upperCase(query)}"`) })
+            return res.send({ error: _.capitalize(`"${_.upperCase(query)}"`) })
         })
 }
 
@@ -58,16 +59,17 @@ function search(req, res, next) {
 function getRelatedSearchResult(req, res) {
     //get the id of the selected file
     const { id: selectedId } = req.params;
+    const { fileSearchResult: relatedResult } = req.session
+
     database
         .promise()
         .query("SELECT * FROM files WHERE( id = ?);", [selectedId])
         .then(([rows, fields]) => {
             console.log(rows);
             return res.send(rows)
-
         })
-    
-    
+
+
     //use natural language to get related files
 
     // res.send({ related: fileSearchResult })

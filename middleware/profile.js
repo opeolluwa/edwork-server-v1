@@ -43,6 +43,7 @@ module.exports = {
              */
             const user = jwt.verify(token);
             // res.send(user)
+            // console.log(user);
             req.user = user
             next();
         } catch (error) {

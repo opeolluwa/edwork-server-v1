@@ -28,17 +28,18 @@ const sessionStore = new MySQLStore({
 
 //mount general middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors(/* {credentials:true, exposedHeaders:["set-cookie"]} */))
 app.use(session({
     key: 'session_cookie_name',
     secret: process.env.SESSION_SECRET,
     store: sessionStore,
     resave: false,
     saveUninitialized: false,
+    unset:"destroy", //destroy expired session data
     //use secure cookie only in production environment
     cookie: { secure: process.env.NODE_ENV === "production" ? true : false }
 }));
-
+// 6StSEj4rqTNV3sy
 //import routes
 const contact = require('./routes/contact') //contact form
 const auth = require('./routes/auth') //{login, logout, register and account recovery}
@@ -59,10 +60,9 @@ app.use("/notification", notification)
 
 // create the connection test
 app.get("/", (req, res) => {
-    console.log(req.session.id);
-    console.log(req.session);
-
-    req.session.isAuth = true;
+   /*  console.log(req.session.id);
+    console.log(req.session); 
+    req.session.isAuth = true; */
     res.send("Session! it all starts here ")
     /*  res.json({
          session: req.session,
@@ -71,6 +71,8 @@ app.get("/", (req, res) => {
          state: "Session! it all starts here"
      }); */
 })
+
+
 
 app.get("/end", (req, res) => {
     req.session.destroy((error) => {

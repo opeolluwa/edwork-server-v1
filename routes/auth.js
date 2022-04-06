@@ -22,7 +22,19 @@ router.use(cors())
 router.post("/sign-up", validateRegister, register) // register user
 router.post("/login", validateLogin, login) //login user
 router.post("/reset/confirm-email", isEmailRegistered)
-router.post("/reset/confirm-token", confirmSentToken) //verify user email
+router.post("/reset/confirm-token", confirmSentToken) //verify user emai
+
+
+router.get('/session-test', (req, res) => {
+    req.session.user = "adefemiadeoye@gmail.com"
+    res.send("done!")
+})
+
+router.get('/session-test/2', (req, res) => {
+    // req.session.user = "adefemiadeoye@gmail.com"
+    const {user} = req.session
+    res.send("done! " + user)
+})
 
 //TODO: create a temporary data table to store session id and reset token, table columns are to be dropped after 10 minutes, table columns are to be reset on retries
 

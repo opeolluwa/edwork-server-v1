@@ -1,7 +1,7 @@
 // handle validation of query and add of files and quizes by admin
 
 module.exports = {
-    //handle search :: quering database
+    //handle search :: querying database
     validate_search_query: (req, res, next) => {
         const { query } = req.body;
 

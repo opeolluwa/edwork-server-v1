@@ -9,8 +9,7 @@ function profile_information(req, res, next) {
     * {firstname, lastname, email}
     * get all required fields and then send them back to user
     */
-    const { email: user_email } = req.user
-    console.log(user_email);
+    const user_email = req.user.email
     database.promise()
         .query("SELECT * FROM user_information WHERE LOWER(email) = ?", [user_email])
         .then(([rows, fields]) => {
