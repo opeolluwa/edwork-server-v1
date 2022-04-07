@@ -111,7 +111,6 @@ function quizMarker(req, res, next) {
             const percentage = Number(((score / TOTAL_NUMBER_OF_QUESTIONS) * 100).toFixed(2))
             const correction = req.correction;
 
-            console.log({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion, totalQuestionFromServer: TOTAL_NUMBER_OF_QUESTIONS, correction })
 
             res.send({ score, percentage, totalAttemptedQuestions, idOfAttemptedQuestion, totalQuestionFromServer: TOTAL_NUMBER_OF_QUESTIONS, correction })
         })
