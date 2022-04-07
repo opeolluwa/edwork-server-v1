@@ -22,12 +22,17 @@ function add(req, res, next) {
 
 //search functionality
 //TODO: mount filters
-function search(req, res, next) {
+function search(req, res) {
     //destructure payload
-    const { query, filters } = req.body;
+    const { filters } = req.body;
+    const query = decodeURIComponent(req.body.query);
+
+    const fileType = (!filters.type || filters.type == 'all') ? "('note' OR 'question')" : filters.type
+    console.log(fileType);
     database
         .promise()
-        .query("SELECT * FROM files WHERE LOWER(course_code) LIKE ?  OR LOWER(course_title) LIKE ?", [`%${query.trim()}%`, `%${query.trim()}%`])
+        .query("SELECT * FROM files WHERE MATCH(course_title, course_code) AGAINST(? IN NATURAL LANGUAGE MODE) ", [query])
+        // .query("SELECT * FROM files WHERE MATCH(course_title, course_code) AGAINST(? IN NATURAL LANGUAGE MODE) AND type= ('note' OR 'question')", [query, fileType])
         .then(([rows, fields]) => {
 
             /* match found, add it to session for use in other files controller
