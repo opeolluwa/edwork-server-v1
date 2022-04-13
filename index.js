@@ -7,6 +7,16 @@ const PORT = process.env.PORT || 3000
 const MySQLStore = require('express-mysql-session')(session);
 const { databaseConnectionOptions } = require("./config/config.database")
 
+
+const ImageKit = require("imagekit");
+const fs = require('fs');
+
+const imagekit = new ImageKit({
+    privateKey: "private_XfAev+SIN0dmZSo0M2I37YziqCY=",
+    urlEndpoint: "https://ik.imagekit.io/nethbooks", // Required. Default URL-endpoint is https://ik.imagekit.io/your_imagekit_id
+    publicKey: "public_b3JXmhrMjodPOOdBhSA7ZVmvMp8=", // op
+});
+
 //instantiate the the application and session 
 const app = express();
 const connection = mysql.createPool(databaseConnectionOptions);
@@ -35,7 +45,7 @@ app.use(session({
     store: sessionStore,
     resave: false,
     saveUninitialized: false,
-    unset:"destroy", //destroy expired session data
+    unset: "destroy", //destroy expired session data
     //use secure cookie only in production environment
     cookie: { secure: process.env.NODE_ENV === "production" ? true : false }
 }));
@@ -58,11 +68,18 @@ app.use("/profile", profile);
 app.use("/quiz", quiz);
 app.use("/notification", notification)
 
+
+app.get("/imagekit/auth", (req, res) => {
+    const authenticationParameters = imagekit.getAuthenticationParameters();
+    res.send(authenticationParameters)
+
+})
+
 // create the connection test
 app.get("/", (req, res) => {
-   /*  console.log(req.session.id);
-    console.log(req.session); 
-    req.session.isAuth = true; */
+    /*  console.log(req.session.id);
+     console.log(req.session); 
+     req.session.isAuth = true; */
     res.send("Session! it all starts here ")
     /*  res.json({
          session: req.session,
