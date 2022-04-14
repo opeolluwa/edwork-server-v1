@@ -12,11 +12,11 @@ function quizGenerator(req, res) {
         //fetch the questions that correspond to the client's request
         database
             .promise()
-            .query(`SELECT * FROM ${subject.toLowerCase()}_question_bank`)
+            .query(`SELECT * FROM ${subject.toLowerCase()}_question_bank ORDER BY RAND() LIMIT ${TOTAL_NUMBER_OF_QUESTIONS}`)
             .then(([rows, fields]) => {
                 //extract 50 random questions from the result
                 //filter the response to be sent, send only question and option, keep a reference to the answer in the user table using a uniques id
-                const questions = randomQuestions(rows, TOTAL_NUMBER_OF_QUESTIONS)
+                const questions = rows
                     .map((questions) => {
                         /*   {
                          "id": 194,
@@ -89,14 +89,14 @@ function quizMarker(req, res, next) {
                 //destructure the content of the element to keep the code DRY
                 const { answer, id, question, option_a, option_b, option_c, option_d } = elem
                 //pass the destructured data from each "elem" and the user selected option to both answers and correction holder
-                correctionsHolder.push({ id, question, option_a, option_b, option_c, option_d, userSelect: Number(idAndAnswersIndex[id]), answer:Number(answer) })
+                correctionsHolder.push({ id, question, option_a, option_b, option_c, option_d, userSelect: Number(idAndAnswersIndex[id]), answer: Number(answer) })
                 Object.assign(answersHolder, { [id]: Number(answer) })
 
             }
             //pass the result  in form of { '336': 2, '337': 0, '338': 1, '339': 1, '340': 1 } to the next handler
             // console.log(correctionsHolder, /* answersHolder */);
             req.correction = correctionsHolder;
-            return  answersHolder 
+            return answersHolder
         })
         .then((answers) => {
             //get the id of the attempted questions, compare it with selected the user's option for question with same id, increment the scoreCount if match 
