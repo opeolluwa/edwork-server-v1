@@ -1,4 +1,5 @@
 {
   "cSpell.words": ["lastname", "resave", "serverside", "uuidv"],
-  "files.exclude": {}
+  "files.exclude": {},
+  "workbench.colorCustomizations": {}
 }

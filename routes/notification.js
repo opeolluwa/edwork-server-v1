@@ -9,6 +9,6 @@ const { get_notification } = require('../controllers/notification')
 */
 
 router.use(cors())
-router.get("/", get_notification);
+router.get("/",  get_notification);
 
 module.exports = router

@@ -68,7 +68,7 @@ app.use("/profile", profile);
 app.use("/quiz", quiz);
 app.use("/notification", notification)
 
-
+///<base url>/imagekit/auth for client upload
 app.get("/imagekit/auth", (req, res) => {
     const authenticationParameters = imagekit.getAuthenticationParameters();
     res.send(authenticationParameters)
